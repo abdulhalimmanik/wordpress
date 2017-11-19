@@ -50,4 +50,27 @@
 // 57. Exclude Some Category from WP blog
 // 58. After Content – More From This Category
 // 59. To change the title attribute of WordPress login logo
- // 60. To remove login shake effect when error occurs on wp login
+// 60. To remove login shake effect when error occurs on wp login
+
+// 61. To use the WordPress limit excerpt done!	
+// 62. To change any wp core file 
+// 63. To remove login shake effect when error occurs on wp login
+// 64. To add read more link after post excerpt see 61 done!
+// 65. Add a Special Class for the First Post in the Loop 
+// 66. To Remove the URL Field in the Comment Form
+// 67. To Change the Default “Lost Password” Messages done!
+// 68. How to Add a Custom Admin Menu for plugin further study
+// 69. Register Settings For a Plugin further study
+// 70. How to Add a Custom Admin Menu for plugin further study
+
+// 71. Options Page for a Plugin under Settings //further
+// 72. To Create a Simple WordPress Theme Settings Page //further
+// 73. To Automatically Create Meta Description From Content
+// 74. To Display Breadcrumbs
+// 75. If current user
+// 76. Logged In Users Current Info
+// 77. Remove width & height from images in posts
+// 78. Automatically add the Google +1 button
+// 79. How to loop posts from a specific category in homepage
+// 80. Automatically Disable comments on posts over one month	
+
