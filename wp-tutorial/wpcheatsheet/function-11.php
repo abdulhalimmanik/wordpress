@@ -126,7 +126,7 @@ function wcs_auto_link_keywords( $text ) {
 add_filter( 'the_content', 'wcs_auto_link_keywords' );
 add_filter( 'the_excerpt', 'wcs_auto_link_keywords' );
 
-// 120. How to load javascript on custom page template?
+// 120. How to load javascript on custom page template? not working
 add_action('wp_enqueue_scripts','Load_Template_Scripts_wpa83855');
 function Load_Template_Scripts_wpa83855(){
     if ( is_page_template('fullwidthpage.php') ) {
