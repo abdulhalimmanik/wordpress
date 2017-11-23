@@ -50,4 +50,5 @@ $defaults = array(
     $query = new WP_Query( 'cat=-3,-8' );
 // 16. is_home()
 // 17. wp_reset_postdata(); //problem
-// 18. query_posts()    
+// 18. query_posts()
+// 19. sprintf() problem    
