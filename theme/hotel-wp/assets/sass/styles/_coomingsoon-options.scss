@@ -1,0 +1,28 @@
+.page-template-comingsoon {
+	.coom-inner {
+		.content-text {
+			.mc4wp-form {
+				.mc4wp-form-fields {
+					input[type=submit],
+					button[type=submit] {
+						background: $thim_body_primary_color;
+						&:hover {
+							background: darken($thim_body_primary_color, 10%);
+						}
+					}
+				}
+			}
+		}
+	}
+	.thim-countdown {
+		.counter-group {
+			.counter-block {
+				.counter {
+					.number {
+						font-family: $thim_font_title_font_family;
+					}
+				}
+			}
+		}
+	}
+}

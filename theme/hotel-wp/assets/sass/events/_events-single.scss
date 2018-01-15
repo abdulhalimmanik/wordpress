@@ -1,0 +1,467 @@
+.single-tp_event {
+  article {
+    .entry-summary {
+      .entry-header {
+        .blog_title {
+          font-size: 36px;
+        }
+      }
+      .tp-event-top {
+        position: relative;
+        .entry-countdown {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          right: 0;
+          @include translate(0, -50%);
+          .tp_event_counter {
+            background: transparent;
+            border: 0;
+            padding: 0;
+            text-align: center;
+            .countdown-row {
+              overflow: hidden;
+              text-align: center;
+              display: inline-block;
+              margin: auto;
+              padding: 0;
+              width: auto;
+              clear: inherit;
+              .countdown-section {
+                border: none;
+                background: none;
+                width: 168px;
+                height: 168px;
+                position: relative;
+                overflow: hidden;
+                display: inline-block;
+                margin: 0 10px;
+                padding: 0;
+                text-align: center;
+                &:before {
+                  content: '';
+                  background: rgba(0, 0, 0, 0.6);
+                  position: absolute;
+                  left: 0;
+                  right: 0;
+                  top: 50%;
+                  height: 118px;
+                  width: 118px;
+                  margin: 0 auto;
+                  -webkit-transform: translateY(-50%) rotate(-315deg);
+                  -moz-transform: translateY(-50%) rotate(-315deg);
+                  -ms-transform: translateY(-50%) rotate(-315deg);
+                  -o-transform: translateY(-50%) rotate(-315deg);
+                  transform: translateY(-50%) rotate(-315deg);
+                }
+
+                &:first-child {
+                  margin-left: 0;
+                }
+                &:last-child {
+                  margin-right: 0;
+                }
+                .countdown-amount {
+                  font-size: 48px;
+                  font-weight: 700;
+                  line-height: 46px;
+                  height: 50px;
+                  color: #fff;
+                  text-align: center;
+                  display: block;
+                  width: 100%;
+                  position: absolute;
+                  top: 35px;
+                  left: 0;
+                  right: 0;
+                  margin: auto;
+                  font-family: "Playfair Display";
+
+                }
+                .countdown-period {
+                  font-size: 18px;
+                  font-weight: bold;
+                  line-height: 21px;
+                  text-transform: uppercase;
+                  position: absolute;
+                  bottom: 49px;
+                  left: 0;
+                  right: 0;
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .tp-event-content {
+      overflow: hidden;
+      clear: both;
+      margin-top: 25px;
+      .entry-content {
+        position: relative;
+        &:after {
+          content: '';
+          width: 1px;
+          position: absolute;
+          top: 7px;
+          right: 0;
+          bottom: 0;
+          background: $border-color;
+        }
+        > h4, > h5 > h6 {
+          margin-top: 0;
+          margin-bottom: 15px;
+        }
+        > p {
+          margin-bottom: 25px;
+        }
+        padding-right: 30px;
+        float: left;
+        width: calc(100% - 300px);
+        width: -webkit-calc(100% - 300px);
+        width: -moz-calc(100% - 300px);
+      }
+      .tp-event-info {
+        max-width: 300px;
+        width: 300px;
+        padding-left: 30px;
+        float: right;
+        .tp-info-box {
+          border-bottom: 1px solid $border-color;
+          padding: 15px 0;
+          &:first-child {
+            padding-top: 15px;
+          }
+          &:last-child {
+            border-bottom: 0;
+            padding-bottom: 15px;
+          }
+          p {
+            margin: 0;
+            line-height: 24px;
+            padding-left: 23px;
+          }
+          .heading {
+            font-weight: 700;
+            position: relative;
+            margin-bottom: 10px;
+            .fa {
+              position: absolute;
+              left: 0;
+              line-height: 24px;
+              top: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  #comments {
+    border: none;
+  }
+}
+
+.tp-default-feature-img{
+  min-height: 500px;
+  position: relative;
+  &::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+
+  }
+}
+
+.thim-book-event {
+  margin-bottom: 30px;
+  .tp-event-notice {
+    &.error {
+      background-color: rgba(231, 173, 68, 0.34);
+      color: #ff0000;
+      border: unset !important;
+    }
+  }
+  .book-title {
+    margin: 0;
+    background: #2A2A2A;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px;
+  }
+  .event_register_area {
+    border: 1px solid $border-color;
+    form {
+      padding: 30px;
+      ul {
+        margin: 0;
+        li:not(.event_auth_register_message_error) {
+          padding: 0 !important;
+          font-weight: normal;
+          line-height: 52px !important;
+          list-style: none;
+          border-bottom: 1px solid $border-color;
+          .label {
+            display: inline-block;
+          }
+          .value {
+            display: inline-block;
+            font-weight: 700;
+            float: right;
+          }
+          input[type="number"] {
+            width: 55px;
+            line-height: 30px;
+            border: 1px solid $border-color;
+            padding: 0 0 0 10px;
+            font-weight: 400;
+            text-align: center;
+          }
+          input[type='radio'] {
+            -webkit-appearance: none;
+            width: 12px;
+            height: 12px;
+            outline: none;
+            border: 1px solid #979797;
+            @include rounded(50%);
+
+            &:before {
+              content: '';
+              display: block;
+              width: 60%;
+              height: 60%;
+              margin: 20% auto;
+              @include rounded(50%);
+            }
+          }
+
+          &:last-child {
+            border: none;
+          }
+          &:before {
+            display: none !important;
+          }
+          &.event-payment {
+            &:after {
+              @extend .clear-after;
+            }
+            .envent_auth_payment_methods {
+              float: right;
+            }
+          }
+        }
+        &.event-auth-notice {
+          margin-top: 20px !important;
+          margin-bottom: 10px !important;
+          padding: 10px !important;
+          li.event_auth_register_message_error {
+            margin-top: 0 !important;
+            text-align: center;
+          }
+          &.error {
+            background-color: #eee;
+          }
+        }
+      }
+
+      .event_register_foot {
+        text-align: center;
+        margin-top: 30px;
+        a{
+          height: 40px;
+          line-height: 40px;
+        }
+        button {
+          letter-spacing: 0;
+          line-height: 30px;
+          padding: 5px 50px;
+          border: 0;
+          box-shadow: none;
+          border-radius: 0;
+          font-size: 14px;
+          margin-top: 30px;
+          font-weight: bold;
+          text-transform: uppercase;
+          color: #fff;
+          &:focus {
+            outline: 0 !important;
+          }
+          &.event_auth_button {
+            margin-top: 10px;
+          }
+          &.event-register-loading {
+            position: relative;
+            overflow: hidden;
+
+            &:after {
+              position: absolute;
+              content: '';
+              display: block;
+              background-image: url('assets/images/icons/ajax-loader.gif');
+              background-size: 26px 26px;
+              background-repeat: no-repeat;
+              background-color: rgba(255, 255, 255, 0.75);
+              left: 0;
+              right: 0;
+              top: 0;
+              bottom: 0;
+              background-position: center center;
+              z-index: 9;
+            }
+          }
+        }
+      }
+    }
+  }
+  .event_auth_register_message_error {
+    margin-top: 15px;
+  }
+}
+
+// Account page
+.entry-content .event-auth-notice {
+  max-width: 400px;
+  margin: 30px auto !important;
+}
+
+.thim-table-book-events {
+  table, td, tr {
+    border-color: $border-color;
+  }
+  > table {
+    th,
+    td {
+      padding: 10px;
+    }
+    thead th {
+      text-transform: uppercase;
+    }
+  }
+  > span,
+  > a {
+    &.page-numbers {
+      display: inline-block;
+      text-align: center;
+      margin-right: 20px;
+      font-weight: 700;
+      &.current {
+        &:after {
+          content: '';
+          position: relative;
+          display: block;
+          height: 2px;
+          width: 10px;
+          margin: 0 auto;
+          bottom: 0;
+        }
+      }
+    }
+  }
+  > a {
+    &.page-numbers {
+      &.prev {
+        font-size: 0;
+        &:before {
+          content: "\f104";
+          padding: 5px;
+          font-size: 16px;
+          font-family: FontAwesome;
+        }
+      }
+      &.next {
+        font-size: 0;
+        &:before {
+          content: "\f105";
+          padding: 5px;
+          font-size: 16px;
+          font-family: FontAwesome;
+        }
+      }
+    }
+  }
+}
+
+// Login page
+.thim-auth-login {
+  .thim-title {
+    text-align: center;
+    margin: 0 0 30px;
+  }
+  .lost-password-form {
+    text-align: center;
+    .description {
+      margin-bottom: 30px;
+    }
+    .form-row {
+      margin-bottom: 0;
+      #user_login {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .form-row {
+    margin-bottom: 30px;
+  }
+  .login-submit,
+  .register-submit {
+    text-align: center;
+    input[type="submit"] {
+      min-width: 120px;
+    }
+  }
+  #rememberme {
+    width: auto;
+    height: auto;
+  }
+  form {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid $border-color;
+  }
+  .login-area {
+    > p {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .button {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+}
+
+.event-auth-form {
+  max-width: 400px;
+  margin: auto;
+  input {
+    border-color: $border-color !important;
+  }
+  p {
+    &.has-error {
+      input {
+        border-color: #a00 !important;
+      }
+    }
+    &.submit {
+      font-weight: normal;
+      text-transform: none;
+      border: 0;
+      padding: 0;
+      text-align: center;
+      height: auto;
+      display: block;
+      background: none !important;
+    }
+  }
+}
+
+

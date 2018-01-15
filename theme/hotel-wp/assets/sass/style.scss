@@ -1,0 +1,74 @@
+/*!
+Theme Name: Hotel WP
+Theme URI: http://hotelwp.thimpress.com/
+Author: ThimPress
+Author URI: http://thimpress.com
+Description: Hotel WordPress Theme.
+Version: 1.1.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: hotel-wp
+Domain Path: /languages/
+*/
+//Import variables
+@import "variables";
+@import "icomoon/icomoon";
+@import "ionicons/ionicons";
+// Import style Bootstrap
+@import "bootstrap/bootstrap";
+// Import style Bootstrap
+@import "awesome/font-awesome";
+// Import Mixins
+@import "mixins/mixins-master";
+@import "mixins/animate";
+@import "mixins/extend";
+// Import reset style
+@import "reset-style/reset-style";
+// Import style header
+@import "header/header";
+@import "header/main-menu";
+@import "header/mega-menu";
+@import "header/header-menu-right";
+// Import Breadcrumb
+@import "page-title/page-title";
+// Import style blog
+@import "sidebar/sidebar";
+@import "blog/blog-archive";
+@import "blog/blog-single";
+// Import style footer
+@import "footer/footer";
+// Import responsive
+@import "responsive/responsive";
+// Import Features
+@import "features/preloading/spinkit";
+@import "features/back-to-top/back-to-top";
+// Import Common style
+@import "buttons/buttons";
+@import "styles/styles";
+@import "styles/404";
+@import "styles/home3";
+// Import Shortcodes default style of VC
+@import "vc-shortcodes/shortcodes-default";
+// Import Style for banner
+@import "text-banner/text-banner";
+@import "search/search";
+// Import style from plugin
+@import "libs-extend/extend-instagram";
+@import "libs-extend/select2/core";
+@import "libs-extend/owlcarousel/owl.carousel";
+// Import coming soon
+@import "styles/comingsoon";
+// Import style for events
+@import "events/events-archive";
+@import "events/events-single";
+// TP Hotel Booking
+@import "tp-hotel-booking/archive";
+@import "tp-hotel-booking/single";
+@import "tp-hotel-booking/sidebar";
+@import "tp-hotel-booking/search-results";
+//// Import Woocommerce style
+@import "woocommerce/woo-pages";
+@import "woocommerce/woo-quickview";
+@import "woocommerce/minicart";
+@import "woocommerce/sidebar-shop";

@@ -1,0 +1,212 @@
+/*
+ * Style for blog from customizer */
+
+.site-content {
+  .blog-content article .content-inner .entry-content .readmore a {
+    color: $thim_body_primary_color;
+  }
+  .page-content {
+    .tags-links a {
+      color: $thim_font_title_color;
+      &:hover {
+        color: $thim_body_primary_color;
+      }
+    }
+    .thim-about-author {
+      a.name {
+        color: $thim_font_body_color;
+        &:hover {
+          color: $thim_body_primary_color;
+        }
+      }
+      .role {
+        font-family: $thim_font_title_font_family;
+      }
+    }
+    .related-archive {
+      ul {
+        li {
+          .rel-post-text .entry-title a {
+            color: $thim_font_title_color;
+            &:hover {
+              color: $thim_body_primary_color;
+            }
+          }
+        }
+      }
+      .related-title {
+        font-family: $thim_font_body_font_family;
+        color: $thim_body_primary_color;
+        &:before {
+          background: $thim_body_primary_color;
+        }
+      }
+    }
+  }
+
+  .blog-content,
+  .page-content {
+    article {
+      .entry-content {
+        &:after {
+          background: $thim_body_primary_color;
+        }
+      }
+      &.sticky {
+        .entry-title {
+          a {
+            color: $thim_body_primary_color;
+            &:hover {
+              color: $thim_font_title_color;
+            }
+          }
+        }
+      }
+
+      .entry-title {
+        a {
+          color: $thim_font_title_color;
+          &:hover {
+            color: $thim_body_primary_color;
+          }
+        }
+      }
+      .entry-meta {
+        span {
+          color: $thim_font_body_color;
+        }
+        a {
+          color: $thim_font_body_color;
+          &:hover {
+            color: $thim_body_primary_color;
+          }
+        }
+      }
+
+      // post format
+      &.format-chat {
+        .group-chat {
+          li {
+            color: $thim_font_title_color;
+            .messenger {
+              color: $thim_font_body_color;
+            }
+          }
+        }
+      }
+      &.format-quote blockquote {
+        border-left-color: lighten($thim_body_primary_color, 10%);
+        a {
+          color: $thim_body_primary_color;
+        }
+      }
+
+    }
+  }
+}
+
+//Pagination
+.loop-pagination {
+  li {
+    a {
+      color: $thim_font_body_color;
+      &:hover,
+      &:focus {
+        border-color: $thim_body_primary_color;
+        color: $thim_body_primary_color;
+      }
+    }
+
+    .page-numbers.current {
+      border-color: $thim_body_primary_color;
+      color: $thim_body_primary_color;
+    }
+  }
+}
+
+// Comments
+#comments {
+  .comments-title {
+    font-family: $thim_font_body_font_family;
+    color: $thim_body_primary_color;
+    &:before {
+      background: $thim_body_primary_color;
+    }
+  }
+  .comment-list {
+    li {
+      .content-comment {
+        .author {
+          .comment-extra-info {
+            color: $thim_font_body_color;
+          }
+          .author-name,
+          .author-name a {
+            color: $thim_font_body_color;
+            &:hover {
+              color: $thim_body_primary_color;
+            }
+          }
+          span {
+            .comment-reply-link {
+              color: $thim_body_primary_color;
+              &:hover {
+                color: $thim_font_title_color;
+              }
+            }
+            .comment-edit-link {
+              color: $thim_body_primary_color;
+              &:hover {
+                color: $thim_font_title_color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .form-comment {
+    #reply-title {
+      color: $thim_body_primary_color;
+      &:before {
+        background: $thim_body_primary_color;
+      }
+    }
+  }
+  .comment-form {
+    .logged-in-as a {
+      color: $thim_body_primary_color;
+    }
+
+    textarea,
+    input {
+      border: 1px solid $border-color;
+      &:focus {
+        border: 1px solid $thim_body_primary_color;
+      }
+    }
+  }
+  .comment-reply-title {
+    font-family: $thim_font_body_font_family;
+  }
+}
+
+.entry-meta > span {
+  &:after {
+    color: $thim_font_body_color;
+  }
+}
+
+// Panagation
+.loop-pagination {
+  li {
+    .page-numbers {
+      &.current {
+        &:after {
+          background-color: $thim_body_primary_color;
+        }
+      }
+    }
+
+  }
+}

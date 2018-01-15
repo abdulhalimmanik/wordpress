@@ -1,0 +1,111 @@
+/*
+ * Page title style */
+
+.main-top {
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+  z-index: 8;
+  background-color: #333333;
+  .overlay-top-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  .content {
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    left: 0;
+    border: 0;
+    margin: auto;
+    top: 50%;
+    @include translate(0, - 50%);
+    &.line {
+      h1,
+      h2 {
+        &:after {
+          content: '';
+          position: relative;
+          width: 60px;
+          height: 2px;
+          display: block;
+          margin: 0 auto;
+          bottom: -20px;
+        }
+      }
+    }
+    h1,
+    h2 {
+      margin: 0;
+      text-transform: uppercase;
+      position: relative;
+    }
+    .description {
+      margin-top: 35px;
+      p {
+        font-size: 20px;
+        color: #fff;
+      }
+    }
+  }
+}
+
+#breadcrumbs {
+  padding: 0;
+  margin: 33px 0 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  li {
+    line-height: 25px;
+    display: inline-block;
+    list-style: none;
+    a {
+      line-height: 25px;
+      display: inline-block;
+    }
+    span.breadcrum-icon {
+      margin: 0 10px;
+    }
+
+  }
+}
+
+body.woocommerce nav.woocommerce-breadcrumb {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+body.woocommerce nav.woocommerce-breadcrumb,
+#breadcrumbs {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.icon-default {
+  #breadcrumbs,
+  nav.woocommerce-breadcrumb {
+    .breadcrum-icon {
+      margin: 0 !important;
+    }
+    a {
+      &:after {
+        position: relative;
+        top: -1px;
+        content: '';
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: $border-color !important;
+        display: inline-block;
+        margin: 0 10px;
+      }
+    }
+  }
+}
+
+

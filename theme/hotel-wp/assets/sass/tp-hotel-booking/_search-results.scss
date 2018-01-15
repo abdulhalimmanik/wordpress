@@ -1,0 +1,479 @@
+div#hotel-booking-results {
+  .hb-search-results {
+    > .hb-room {
+
+      border: 1px solid $border-color;
+      padding-bottom: 0;
+      .hb-room-content {
+        &:hover {
+          .room-thumbnail {
+            .hb-room-gallery {
+              &:after,
+              &:before {
+                @include opacity(1);
+              }
+              img {
+                @extend .effect-zoom;
+              }
+            }
+          }
+        }
+        .room-thumbnail {
+          width: 370px;
+          float: left;
+          overflow: hidden;
+          .hb-room-gallery {
+            position: relative;
+            display: block;
+            &:before {
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: rgba(0, 0, 0, .5);
+              content: "";
+              @include opacity(0);
+              @include transition(all 0.4s);
+              display: block;
+              z-index: 1;
+            }
+            &:after {
+              z-index: 2;
+              display: block;
+              width: 40px;
+              height: 40px;
+              content: "\f002";
+              font: normal normal normal 32px/1 FontAwesome;
+              color: #fff;
+              position: absolute;
+              top: 50%;
+              margin-top: -20px;
+              left: 50%;
+              margin-left: -20px;
+              text-align: center;
+              @include opacity(0);
+              @include transition(all 0.4s);
+            }
+            img {
+              max-width: 100%;
+              @include transition(all 1s);
+            }
+          }
+        }
+        .room-info {
+          @include calc(width, #{"100% -  370px"});
+          float: left;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          padding-left: 30px;
+          .hb_success_message {
+            font-size: 15px !important;
+          }
+          .hb-room-name {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            position: relative;
+            margin-bottom: 46px;
+            &:before {
+              content: '';
+              width: 40px;
+              height: 2px;
+              background: $border-color;
+              display: block;
+              bottom: -18px;
+              position: absolute;
+              left: 0;
+            }
+            &:after {
+              content: '';
+              width: 4px;
+              height: 4px;
+              border-radius: 50%;
+              background: $border-color;
+              display: block;
+              bottom: -18px;
+              position: absolute;
+              left: 90px;
+            }
+          }
+
+          .hb-booking-room-details {
+            position: absolute;
+            right: 15px;
+            left: auto;
+            > span {
+              color: #fff !important;
+            }
+            table {
+              margin-bottom: 15px;
+              tr {
+                border: 0;
+              }
+              tbody {
+                tr {
+                  td {
+                    padding-bottom: 15px;
+                  }
+                }
+              }
+              tfoot {
+                tr {
+                  td {
+                    padding: 15px 0px;
+                    &.vat {
+                      padding-bottom: 0;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .hb-room-meta {
+            .meta-item {
+              min-width: 166px;
+              display: inline-block;
+              margin-bottom: 19px;
+              label {
+                text-transform: uppercase;
+                line-height: 27px;
+                margin-bottom: 0;
+                margin-right: 3px;
+              }
+              span {
+                font-weight: bold;
+                &.hb_view_price {
+                  font-weight: normal;
+                }
+              }
+              div {
+                &.hb_view_price {
+                  display: inline;
+                }
+              }
+              li {
+                margin-bottom: 0;
+              }
+              .hb-room-meta {
+                li {
+                  padding: 15px 0;
+                  > div {
+                    padding-left: 0;
+                    margin-left: 0;
+                  }
+                }
+              }
+
+              &.hb_search_price {
+                .hb-view-booking-room-details {
+                  font-size: 13px;
+                  text-decoration: none !important;
+                }
+                .hb-booking-room-details {
+                  min-width: 300px;
+                  border: 0;
+                  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+                  background-color: #f8f8f8;
+                  .hb_search_item_total_bold {
+                    text-align: right;
+                    padding-right: 5px;
+                  }
+                  .vat {
+                    padding-left: 0;
+                    padding-right: 0;
+                    text-align: right;
+                    color: #9a9a9a;
+                    font-style: italic;
+                  }
+                }
+              }
+
+              &.hb_search_quantity {
+                select {
+                  display: none !important;
+                  @include opacity(0);
+                }
+
+                .select2 {
+                  .select2-selection {
+                    border: 0;
+                  }
+                }
+              }
+            }
+            .hb_addition_package_extra {
+              padding-top: 0;
+              padding-right: 60px;
+              .hb_addition_packages {
+                border: 1px solid $border-color;
+                padding: 0;
+                margin-bottom: 0;
+                margin-top: 0;
+                border-left: 0;
+                border-right: 0;
+                .hb_addition_packages_ul {
+                  li {
+                    &:first-child {
+                      border-top: 0;
+                      border-bottom: 0;
+                    }
+                    padding: 15px 0;
+                    border-top: 1px solid $border-color;
+                    margin-bottom: 0;
+                    .hb_extra_optional_right {
+                      input[type=checkbox] {
+                        cursor: pointer;
+                        text-align: center;
+                        height: 14px;
+                        width: 14px;
+                        min-width: 14px;
+                        -webkit-appearance: none;
+                        -webkit-transition: .05s border-color ease-in-out;
+                        transition: .05s border-color ease-in-out;
+                        outline: 0 !important;
+                        &:checked:before {
+                          content: '\2714'!important;
+                          margin-top: -9px;
+                          float: left;
+                          display: inline-block;
+                          vertical-align: middle;
+                          width: 14px;
+                          font: 400 20px/1 dashicons;
+                          speak: none;
+                          -webkit-font-smoothing: antialiased;
+                          -moz-osx-font-smoothing: grayscale;
+                        }
+                      }
+
+                      .hb_optional_quantity_selected {
+                        border: 1px solid #979797;
+                        border-radius: 0;
+                      }
+                    }
+                    .hb_extra_optional_left {
+                      margin-left: 26px;
+                      .hb_extra_title {
+                        .hb_package_title {
+                          line-height: 18px;
+                          font-weight: bold;
+                          margin-bottom: 2px;
+                          label {
+                            font-weight: bold;
+                          }
+                        }
+                        p {
+                          font-size: 15px;
+                          line-height: 27px;
+                          margin-bottom: 9px;
+                        }
+                      }
+                      .hb_extra_detail_price {
+                        .hb_optional_quantity {
+                          max-width: 40px;
+                        }
+                      }
+                    }
+                    &:last-child {
+                      border-top: 0;
+                    }
+                  }
+                }
+              }
+            }
+            .hb_search_add_to_cart {
+              margin-top: 23px;
+              .hb_add_to_cart {
+                font-size: 14px;
+                font-weight: bold;
+                text-transform: uppercase;
+                color: #fff;
+                height: 40px;
+                line-height: 40px;
+                padding: 0 20px;
+                border-radius: 0;
+                border: 0;
+                &.hb_loading {
+                  position: relative;
+                  overflow: hidden;
+                  &:after {
+                    position: absolute;
+                    content: '';
+                    display: block;
+                    background-image: url('assets/images/icons/ajax-loader.gif');
+                    background-size: 20px 20px;
+                    background-repeat: no-repeat;
+                    background-color: rgba(255, 255, 255, 0.5);
+                    left: 0;
+                    right: 0;
+                    top: -2px;
+                    bottom: 0;
+                    background-position: center center;
+                    z-index: 9;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .rooms-pagination {
+    .loop-pagination {
+      text-align: left;
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+  }
+}
+
+.hb_extra_title p {
+  font-size: 15px;
+  line-height: 27px;
+  margin-bottom: 9px;
+}
+
+.mfp-content .hb-search-room-results.hotel-booking-search {
+  padding: 15px 15px 40px;
+}
+
+main.alignleft .entry-content .hotel-booking-search.layout-default form {
+  padding: 50px 0;
+  background: #ddd;
+}
+
+.hb_success_message {
+  //display: none !important;
+  font-size: 15px !important;
+  display: block;
+  text-transform: none;
+}
+
+body.iniframe {
+  div select {
+    display: inline !important;
+    @include opacity(1);
+  }
+}
+
+body.iniframe {
+  div#hotel-booking-results .hb-search-results > .hb-room .hb-room-content .room-info .hb-room-meta .meta-item.hb_search_quantity select {
+    display: inline-block !important;
+    @include opacity(1);
+    border: 0;
+  }
+
+  #hotel-booking-payment select,
+  #hotel-booking-payment select,
+  .hotel-booking-search.layout-default form .hb-form-table .hb-form-field select[name="adults_capacity"] {
+    display: block !important;
+    border: 1px solid #ddd;
+    border-radius: 0;
+  }
+}
+
+.hotel_booking_invalid_quantity .select2-selection {
+  border: 1px solid red !important;
+  > span {
+    color: red !important;
+    > b {
+      border-color: red transparent transparent !important;
+    }
+  }
+}
+
+.hb_search_quantity .select2 {
+  min-width: 75px !important;
+}
+
+#hotel_booking_room_hidden .hb_addition_package_extra {
+  width: 100%;
+  float: none;
+  margin-bottom: 25px;
+}
+
+.hb_addition_package_extra {
+  padding-top: 0;
+  padding-right: 60px;
+  .hb_addition_package_title {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .hb_addition_packages {
+    border: 1px solid $border-color;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-left: 0;
+    border-right: 0;
+    .hb_addition_packages_ul {
+      li {
+        &:first-child {
+          border-top: 0;
+          border-bottom: 0;
+        }
+        padding: 15px 0;
+        border-top: 1px solid $border-color;
+        margin-bottom: 0;
+        .hb_extra_optional_right {
+          input {
+            cursor: pointer;
+            text-align: center;
+            height: 14px;
+            width: 14px;
+            min-width: 14px;
+            -webkit-appearance: none;
+            -webkit-transition: .05s border-color ease-in-out;
+            transition: .05s border-color ease-in-out;
+            outline: 0 !important;
+            &:checked:before {
+              content: '\2714'!important;
+              margin-top: -9px;
+              float: left;
+              display: inline-block;
+              vertical-align: middle;
+              width: 14px;
+              font: 400 20px/1 dashicons;
+              speak: none;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale;
+            }
+          }
+
+          .hb_optional_quantity_selected {
+            border: 1px solid #979797;
+            border-radius: 0;
+          }
+        }
+        .hb_extra_optional_left {
+          margin-left: 0;
+          .hb_extra_title {
+            .hb_package_title {
+              line-height: 18px;
+              font-weight: bold;
+              margin-bottom: 2px;
+              label {
+                font-weight: bold;
+              }
+            }
+            p {
+              font-size: 15px;
+              line-height: 27px;
+              margin-bottom: 9px;
+            }
+          }
+          .hb_extra_detail_price {
+            .hb_optional_quantity {
+              max-width: 40px;
+              min-width: 40px;
+            }
+          }
+        }
+        &:last-child {
+          border-top: 0;
+        }
+      }
+    }
+  }
+}

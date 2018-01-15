@@ -1,0 +1,308 @@
+/*
+* Style for footer */
+
+footer#colophon {
+  .footer-top {
+    max-width: 1170px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid transparent;
+  }
+  .footer {
+    padding-top: 53px;
+    padding-bottom: 39px;
+    &.no-padding {
+      padding: 0;
+    }
+  }
+  .thim-footer-location {
+    margin-bottom: 17px;
+    line-height: 20px;
+    padding-top: 8px;
+    .info {
+      margin-bottom: 13px;
+      line-height: 24px;
+
+      .fa {
+        width: 30px;
+        float: left;
+        padding-top: 3px;
+      }
+      span {
+        padding-left: 30px;
+        display: block;
+      }
+    }
+  }
+  .social-link {
+    a {
+      &.facebook:hover i {
+        color: #314B7C;
+        border-color: #314B7C;
+      }
+      &.twitter:hover i {
+        color: #339DC4;
+        border-color: #339DC4;
+      }
+      &.skype:hover i {
+        color: #01ABE9;
+        border-color: #01ABE9;
+      }
+      &.pinterest:hover i {
+        color: #B31217;
+        border-color: #B31217;
+      }
+      &.google:hover i {
+        color: #DC4335;
+        border-color: #DC4335;
+      }
+      &.dribble:hover i {
+        color: #EE5188;
+        border-color: #EE5188;
+
+      }
+      &.linkedin:hover i {
+        color: #007BB6;
+        border-color: #007BB6;
+      }
+      &.digg:hover i {
+        color: #005F93;
+        border-color: #005F93;
+      }
+      &.youtube:hover i {
+        color: #E32C26;
+        border-color: #E32C26;
+      }
+      &.instagram:hover i {
+        color: #D95443;
+        border-color: #D95443;
+      }
+    }
+  }
+  .mc4wp-form .mc4wp-form-fields input {
+		height: 50px;
+		border: 1px solid transparent;
+  }
+
+  .widget {
+    margin-bottom: 30px;
+  }
+
+  .widget-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .footer-sidebars {
+    clear: both;
+    .footer-sidebar {
+      .widget {
+        ul {
+          margin: 0;
+          li {
+            list-style: none;
+            line-height: 38px;
+          }
+
+          &.menu li {
+            a {
+				@include transition(all .5s cubic-bezier(.215,.61,.355,1));
+				width: 100%;
+				line-height: 38px;
+				display: inline-block;
+				&:hover {
+					@include translate(10px,0);
+				}
+            }
+          }
+        }
+      }
+    }
+    .col-md-20 {
+      width: 20%;
+    }
+  }
+
+  .copyright-content {
+    padding: 35px 0;
+    border-top: 1px solid transparent;
+    ul {
+      margin: 0;
+      list-style: none;
+      li {
+        display: inline-block;
+      }
+    }
+  }
+
+  //Footer style 2
+  &.style-2 {
+    font-size: 14px;
+    .widget {
+      &:last-child {
+        margin: 0;
+      }
+    }
+    .footer-top {
+      padding-top: 70px;
+      border-bottom: 1px solid #131729;
+      text-align: center;
+    }
+    .footer-top-email {
+      text-align: center;
+      display: inline-block;
+      h3 {
+        color: #777777;
+        line-height: 40px;
+        display: inline-block;
+        margin: 0px;
+        margin-right: 23px;
+        float: left;
+        font-weight: normal;
+        font-size: 38px;
+      }
+      .mc4wp-form {
+        display: inline-block;
+        max-width: none;
+        float: left;
+        .mc4wp-response {
+          margin: 0;
+        }
+        .mc4wp-form-fields {
+          input {
+            height: 48px;
+            border: 2px solid #515561;
+            background-color: transparent;
+            font-style: normal;
+            font-size: 13px;
+            max-width: 330px;
+            padding: 0px 20px;
+            float: left;
+            margin-right: 10px;
+            width: auto;
+          }
+          button[type=submit] {
+            background: #006ba5;
+            position: static;
+            height: 48px;
+            width: auto;
+            line-height: 48px;
+            font-size: 14px;
+            padding: 0px 35px;
+            text-transform: uppercase;
+            color: #ffffff;
+            float: left;
+          }
+        }
+      }
+    }
+
+    .footer {
+      padding-top: 45px;
+      padding-bottom: 53px;
+    }
+    .thim-footer-location {
+      margin-bottom: 0;
+      line-height: 26px;
+      padding-top: 0;
+      padding-right: 70px;
+      p {
+        margin-bottom: 10px;
+        &.info {
+          margin-bottom: 5px;
+          i {
+            width: 25px;
+            padding-top: 2px;
+            float: left;
+            font-size: 15px;
+          }
+          span {
+            padding-left: 25px;
+          }
+        }
+      }
+      .logo-footer {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+    .widget-title {
+      font-size: 18px;
+      font-weight: normal;
+      margin-top: 25px;
+      text-transform: capitalize;
+    }
+
+    ul.menu {
+      margin: 0;
+      list-style: none;
+      display: inline-block;
+      width: 100%;
+      > li {
+        display: inline-block;
+        width: 100%;
+        > a {
+          line-height: 36px;
+          display: inline-block;
+          width: 100%;
+          text-transform: capitalize;
+        }
+      }
+    }
+    ul.list-social {
+      margin: 0;
+      list-style: none;
+      display: inline-block;
+      width: 100%;
+      li {
+        display: inline-block;
+        width: 100%;
+        a {
+          line-height: 36px;
+          display: inline-block;
+          width: 100%;
+          text-transform: capitalize;
+          &.facebook {
+            color: #3b5998;
+          }
+          &.twitter {
+            color: #1da1f2;
+          }
+          &.instagram {
+            color: #c13584;
+          }
+          &.youtube {
+            color: #cd201f;
+          }
+          &.google {
+            color: #dd4b39;
+          }
+        }
+      }
+    }
+
+    .copyright-content {
+      padding: 25px 0px;
+      text-align: center;
+      font-size: 13px;
+    }
+  }
+}
+
+ul.list-info {
+  li {
+    .fa {
+      float: left;
+      margin-top: 3px;
+    }
+    span {
+      margin-left: 30px;
+      display: block;
+    }
+    width: 100%;
+    clear: both;
+    line-height: 24px !important;
+    margin-bottom: 17px;
+  }
+}

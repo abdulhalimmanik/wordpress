@@ -1,0 +1,31 @@
+.thim-sc-social-link {
+
+  &.style-01 {
+    li {
+      a {
+        color: $thim_font_body_color;
+        &:hover {
+          color: $thim_body_primary_color;
+        }
+      }
+    }
+  }
+
+  &.style-02 {
+    li {
+      a:hover {
+       color: $thim_font_body_color !important;
+      }
+    }
+  }
+
+  &.style-03 {
+    li {
+      a {
+        color: $thim_font_body_color;
+      }
+    }
+  }
+
+}
+

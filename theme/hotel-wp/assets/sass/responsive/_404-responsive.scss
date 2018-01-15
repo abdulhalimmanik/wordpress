@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+	.responsive {
+		&.error404 {
+			#main-content {
+				.site-content {
+					padding: 50px 0px;
+					.page-title {
+						font-size: 40px;
+					}
+					.message {
+						padding-bottom: 20px;
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}

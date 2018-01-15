@@ -1,0 +1,101 @@
+@media (max-width: 768px) {
+	.responsive {
+		&.page-template-comingsoon {
+			.background {
+				.flex-control-paging {
+					display: none;
+				}
+			}
+			.coom-inner {
+				padding: 50px 0px;
+				.title {
+					font-size: 40px;
+					line-height: 40px;
+					margin-bottom: 30px;
+				}
+				.thim-countdown {
+					display: inline-block;
+					max-width: 377px;
+					.counter-group {
+						.counter-block {
+							margin-bottom: 20px;
+						}
+					}
+				}
+				.content-text {
+					padding: 0px 10px;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 640px) {
+	.responsive {
+		&.page-template-comingsoon {
+			.coom-inner {
+				.thim-countdown {
+					.counter-group {
+						.counter-block {
+							&:before {
+								height: 110px;
+								width: 110px;
+							}
+							width: 160px;
+							height: 160px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.responsive {
+		&.page-template-comingsoon {
+			.coom-inner {
+				.title {
+					margin-top: 30px;
+					font-size: 30px;
+				}
+				.content-text {
+					.mc4wp-form {
+						width: 100%;
+						padding: 0px 10px;
+						.mc4wp-form-fields {
+							position: relative;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 360px) {
+	.responsive {
+		&.page-template-comingsoon {
+			.coom-inner {
+				.thim-countdown {
+					max-width: 320px;
+					.counter-group {
+						.counter-block {
+							&:before {
+								height: 100px;
+								width: 100px;
+							}
+							width: 140px;
+							height: 140px;
+							.counter-caption {
+								bottom: 28px;
+								font-size: 10px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

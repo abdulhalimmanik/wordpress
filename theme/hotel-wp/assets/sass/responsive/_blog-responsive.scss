@@ -1,0 +1,132 @@
+@media (max-width: 1024px) {
+	.responsive{
+		#comments{
+			.list-comments{
+				.comment-list{
+					li{
+						img{
+							width: 50px;
+						}
+						.content-comment{
+							.message{
+								padding-left: 78px;
+							}
+						}
+						.children{
+							padding-left: 20px;
+						}
+						&.depth-5{
+							padding-top: 30px;
+							padding-bottom: 30px;
+							&:last-child{
+								padding-bottom: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.responsive {
+		#main, #secondary,
+		#secondary-left, #secondary-right {
+			width: 100%;
+			clear: both;
+			float: left;
+			margin-bottom: 30px;
+		}
+		&.single {
+			.entry-tag-share{
+				.share-click{
+					display: block!important;
+					width: 100%;
+					margin-bottom: 20px;
+				}
+				.tags-links{
+					width: 100%;
+					float: left!important;
+					display: block!important;
+				}
+			}
+			.related-archive {
+				.archived-posts .post {
+					margin-bottom: 30px;
+				}
+			}
+		}
+		.blog-content article .entry-meta, .page-content article .entry-meta {
+			font-size: 12px;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.responsive {
+		&.single {
+			#comments{
+				.list-comments{
+					.comment-list{
+						li{
+							padding: 20px 0px;
+							img{
+								margin-right: 0px;
+								margin-bottom: 10px;
+							}
+							.content-comment{
+								display: inline-block;
+								width: 100%;
+								.author{
+									margin: 0;
+									span{
+										.comment-reply-link {
+											float: none;
+										}
+										&:last-child {
+											display: block;
+											text-align: left;
+										}
+									}
+									.comment-extra-info{
+										margin-left: 10px;
+										font-size: 12px;
+										text-transform: none;
+										font-weight: normal;
+										&:before {
+											display: none;
+										}
+									}
+								}
+								.message{
+									padding-left: 0px;
+								}
+							}
+							.children{
+								padding-left: 10px;
+								margin-left: 10px;
+								margin-top: 20px;
+							}
+						}
+					}
+				}
+			}
+			.thim-about-author {
+				.author-wrapper {
+					.author-avatar {
+						width: 100%;
+						display: block;
+						clear: both;
+					}
+					.author-bio {
+						padding-left: 0;
+						float: left;
+						clear: both;
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}

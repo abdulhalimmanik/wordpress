@@ -1,0 +1,23 @@
+/*
+ * Style for footer: back to top */
+
+#back-to-top {
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  text-align: center;
+  z-index: 999;
+  @include transition(all 0.3s);
+  @include transform(translateY(100px));
+  &.scrolldown {
+    @include transform(translateY(0px));
+  }
+  i {
+    line-height: 32px;
+    font-size: 10px;
+  }
+}

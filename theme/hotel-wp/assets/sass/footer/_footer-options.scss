@@ -1,0 +1,79 @@
+/*
+ * Style fo footer from customizer
+ */
+footer#colophon {
+  background-color: $thim_footer_background_color;
+  color: $thim_footer_color_text;
+  .footer-top {
+    border-bottom-color: $thim_font_copyright_color_title;
+  }
+  .widget-title {
+    font-family: $thim_font_body_font_family;
+    font-size: $thim_font_body_font_size;
+  }
+  ul.menu li.current-menu-item a {
+    color: $thim_body_primary_color;
+  }
+  a {
+    color: $thim_footer_color_link;
+    &:hover {
+      color: $thim_footer_color_hover;
+    }
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: $thim_footer_color_title;
+  }
+  .copyright-area {
+    background-color: $thim_copyright_background_color;
+    .copyright-content {
+      color: $thim_font_copyright_color_text;
+      border-top-color: $thim_font_copyright_color_title;
+      a {
+        color: $thim_font_copyright_color_link;
+        &:hover {
+          color: $thim_font_copyright_color_hover;
+        }
+      }
+    }
+  }
+  .mc4wp-form .mc4wp-form-fields input {
+      &:focus {
+          border-color: $thim_body_primary_color;
+      }
+  }
+
+  //Footer Style 2
+  &.style-2 {
+    .widget-title {
+      font-family: $thim_font_title_font_family;
+    }
+    .footer-top-email {
+      .mc4wp-form {
+        .mc4wp-form-fields {
+          input:focus {
+            border-color: $thim_footer_color_hover;
+          }
+          button[type=submit] {
+            background: $thim_footer_color_hover;
+            &:hover {
+              background: darken($thim_footer_color_hover, 10%);
+            }
+          }
+        }
+      }
+    }
+
+    .thim-footer-location {
+      p {
+        &.email {
+          a {
+            color: $thim_footer_color_hover;
+            &:hover {
+              color: lighten($thim_footer_color_hover, 10%);
+            }
+          }
+        }
+      }
+    }
+  }
+}

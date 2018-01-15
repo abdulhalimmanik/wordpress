@@ -1,0 +1,118 @@
+/*
+ * Animates styles */
+
+
+.effect-right {
+  -webkit-animation: toright .6s linear infinite;
+  -moz-animation: toright .6s linear infinite;
+  -o-animation: toright .6s linear infinite;
+  animation: toright .6s linear infinite;
+  -webkit-animation-direction: alternate;
+  -o-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes toright {
+  from {
+    -webkit-transform: translateX(0px) rotate(90deg)
+  }
+
+  to {
+    -webkit-transform: translateX(7px) rotate(90deg)
+  }
+}
+
+@-moz-keyframes toright {
+  from {
+    -moz-transform: translateX(0px) rotate(90deg)
+  }
+
+  to {
+    -moz-transform: translateX(7px) rotate(90deg)
+  }
+}
+@keyframes toright {
+  from {
+    transform: translateX(0px) rotate(90deg)
+  }
+
+  to {
+    transform: translateX(7px) rotate(90deg)
+  }
+}
+
+
+// Animate: hvr-pulse for product sale
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+// Animate: scissor for heading title
+@keyframes scissor {
+  0% {
+    transform: rotate(0deg)
+  }
+  50% {
+    transform: rotate(-20deg)
+  }
+  100% {
+    transform: rotate(0deg)
+  }
+}
+
+@-webkit-keyframes scissor {
+  0% {
+    -webkit-transform: rotate(0deg)
+  }
+  50% {
+    -webkit-transform: rotate(-20deg)
+  }
+  100% {
+    -webkit-transform: rotate(0deg)
+  }
+}
+
+@keyframes scissol {
+  0% {
+    transform: rotate(0deg)
+  }
+  50% {
+    transform: rotate(20deg)
+  }
+  100% {
+    transform: rotate(0deg)
+  }
+}
+
+@-webkit-keyframes scissol {
+  0% {
+    -webkit-transform: rotate(0deg)
+  }
+  50% {
+    -webkit-transform: rotate(20deg)
+  }
+  100% {
+    -webkit-transform: rotate(0deg)
+  }
+}
+

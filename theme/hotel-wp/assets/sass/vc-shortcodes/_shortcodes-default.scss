@@ -1,0 +1,135 @@
+/*
+ * Include shortcodes default style */
+
+// Gallery shortcode
+.wpb_gallery_slides {
+	&.flexslider {
+		margin: 0;
+		@include rounded(0);
+		background: transparent;
+		box-shadow: none;
+		border: none;
+	}
+	.flex-direction-nav {
+		li a {
+			font-size: 0;
+			&:before {
+				line-height: 1.5 !important;
+			}
+		}
+	}
+	.flex-control-nav {
+		bottom: 12px !important;
+		margin: 0 !important;
+		top: auto !important;
+		li a {
+			width: 12px;
+			height: 12px;
+			background: #fff;
+			box-shadow: none;
+		}
+	}
+}
+
+// Button
+a.vc_btn3 {
+	font-weight: bold;
+	&.vc_btn3-size-md {
+		font-size: 13px;
+		padding: 0 30px;
+		line-height: 38px;
+	}
+}
+
+// Single image
+
+.wpb_single_image {
+	.vc_single_image-wrapper {
+		position: relative;
+		overflow: hidden;
+		img {
+			@include transition(all 1s);
+		}
+	}
+	&.no-effect:hover {
+		.vc_single_image-wrapper {
+			img {
+				@extend .no-effect-zoom;
+			}
+		}
+	}
+
+	&:hover {
+		.vc_single_image-wrapper {
+			img {
+				@extend .effect-zoom;
+			}
+		}
+	}
+}
+
+// Shortcode image carousel
+.wpb_images_carousel {
+	margin-left: -15px;
+	margin-right: -15px;
+	.vc_images_carousel{
+		.vc_carousel-inner{
+			.vc_carousel-slideline{
+				.vc_carousel-slideline-inner{
+					>.vc_item{
+						>.vc_inner{
+							margin: 0 15px;
+						}
+					}
+				}
+			}
+		}
+
+		a.vc_carousel-control {
+			background: #E7AD44;
+			height: 60px;
+			width: 60px;
+			display: block;
+			overflow: hidden;
+			margin-top: 0;
+			@include translate(0,-50%);
+			left: -15px;
+			@include opacity(1);
+			color: #fff;
+			text-shadow: none;
+			&.vc_right {
+				left: auto;
+				right: -15px;
+			}
+			&:hover{
+				background: darken( #E7AD44, 10%);
+			}
+			span{
+				line-height: 17px;
+				&:before {
+					content: "\e900";
+					font-family: 'icomoon';
+					@include rotate(90deg);
+					display: inline-block;
+					top: 0;
+					font-size: 13px;
+				}
+				&.icon-prev:before {
+					@include rotate(-90deg);
+				}
+			}
+		}
+	}
+}
+
+// overlay background row
+.thim-background-overlay{
+	.overlay{
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		display: block;
+	}
+}

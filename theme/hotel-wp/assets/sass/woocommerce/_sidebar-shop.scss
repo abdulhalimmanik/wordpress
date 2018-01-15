@@ -1,0 +1,60 @@
+/*
+ * Include all widgets style on sidebar shop */
+
+.widget-area {
+	aside.widget_price_filter {
+		.article_heading {
+			margin-bottom: 5px;
+			&:before,
+			&:after,
+			.heading_primary:after,
+			.heading_primary:before {
+				display: none;
+			}
+		}
+		.price_slider_wrapper {
+			.ui-widget-content {
+				background: #ccc;
+				@include rounded(0);
+				.ui-slider-handle {
+					background: #fff;
+					@include rounded(0);
+					width: 12px;
+					height: 22px;
+					top: -7px;
+				}
+			}
+		}
+
+		.ui-slider .ui-slider-range {
+			height: 8px;
+			@include rounded(0);
+		}
+
+		.price_slider_amount {
+			.price_label {
+				float: left;
+			}
+			.button {
+				float: right;
+				background: none;
+				font-weight: 700;
+				padding-right: 2px;
+				text-transform: capitalize;
+				&:focus {
+					outline: 0;
+					border: none;
+				}
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	.widget.woocommerce {
+		padding: 40px 20px;
+		.product_list_widget {
+			text-align: left;
+		}
+	}
+}

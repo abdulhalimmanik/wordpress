@@ -1,0 +1,21 @@
+.thim-search-box {
+  .toggle-form:hover  i {
+    color: $thim_body_primary_color;
+  }
+
+  .form-search-wrapper {
+    .search-form {
+      .search-field {
+        border: 1px solid $thim_body_primary_color;
+        font-size: $thim_font_body_font_size;
+        color: $thim_font_body_color;
+      }
+      button {
+        background: $thim_body_primary_color;
+        &:hover {
+          background: darken($thim_body_primary_color,10%);
+        }
+      }
+    }
+  }
+}

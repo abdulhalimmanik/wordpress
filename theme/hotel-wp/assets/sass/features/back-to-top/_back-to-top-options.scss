@@ -1,0 +1,9 @@
+/*
+ * Style for footer from customizer */
+
+#back-to-top {
+  background-color: $thim_body_primary_color;
+  &:hover {
+    background-color: darken($thim_body_primary_color, 10%);
+  }
+}

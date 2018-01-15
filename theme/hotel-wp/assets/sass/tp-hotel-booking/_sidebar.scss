@@ -1,0 +1,276 @@
+#secondary {
+	// button booking now in top sidebar
+	#hb_room_load_booking_form {
+		height:         55px;
+		line-height:    55px;
+		padding:        0;
+		text-align:     center;
+		font-weight:    bold;
+		text-transform: uppercase;
+		font-size:      14px;
+		border-radius:  0;
+		margin-bottom:  20px;
+		display:        block;
+	}
+
+	//Widget search room
+	.widget_hb_widget_search {
+		padding: 27px 30px 30px;
+		.widget-title {
+			text-align:  center;
+			font-size:   18px;
+			line-height: 21px;
+		}
+		.hotel-booking-search {
+			padding: 0;
+			form {
+				.hb-form-table {
+					.hb-form-field {
+						margin: 0;
+						border: 0;
+						width:  100%;
+						.hb_input_field {
+							margin-bottom: 20px;
+							&:after {
+								line-height: 40px;
+								right:       10px;
+								color:       #ccc;
+							}
+						}
+						input {
+							height:  40px;
+							border:  1px solid #ddd;
+							padding: 0 10px;
+							width:   100%;
+							display: block;
+							&.error {
+								border-color: #a00;
+							}
+						}
+						&:last-child {
+							margin-bottom: 20px;
+						}
+						.select2-container {
+							.select2-selection--single {
+								.select2-selection__rendered {
+									padding-left: 8px;
+								}
+							}
+						}
+					}
+				}
+				.hb-submit {
+					margin:  0;
+					display: block;
+					button {
+						height:      40px;
+						padding:     0 10px;
+						line-height: 40px;
+						width:       100%;
+						display:     block;
+						max-width:   210px;
+						margin:      auto;
+					}
+				}
+			}
+		}
+	}
+
+	//	Mini cart
+	.widget_hb_widget_cart {
+		.hotel_booking_mini_cart {
+			h3 {
+				font-weight:    bold;
+				font-size:      18px;
+				text-transform: uppercase;
+				text-align:     center;
+				line-height:    21px;
+				margin:         0;
+			}
+			.hb_mini_cart_item {
+				border-top:    1px solid $border-color;
+				border-left:   0;
+				border-right:  0;
+				border-bottom: 0;
+				padding:       20px 0 0;
+				margin-top:    20px;
+				.hb_title {
+					font-size:     16px;
+					line-height:   21px;
+					margin:        0 0 11px;
+					padding-right: 18px;
+				}
+				.hb_mini_cart_remove {
+					right:      -7px;
+					top:        0;
+					background: none;
+					.fa-times:before {
+						content:     '';
+						font-family: FontAwesome;
+						font-size:   14px;
+					}
+				}
+				.hb_mini_cart_price {
+					line-height: 18px;
+					margin-top:  15px;
+					label {
+						margin-bottom: 0 !important;
+					}
+				}
+				.hb_mini_cart_price,
+				.hb_mini_cart_number {
+					label {
+						line-height:   18px;
+						font-weight:   500;
+						margin-bottom: 10px;
+						margin-right:  3px;
+					}
+					span {
+						font-weight: 500;
+					}
+				}
+				.hb_mini_cart_price_packages {
+					background: #f9f9f9;
+					padding:    9px 5px;
+					label {
+						line-height: 18px;
+					}
+					ul {
+						li {
+							padding: 0 0 0 8px;
+							.hb_package_title {
+								&:after {
+									@extend .clear-after;
+								}
+								> a {
+									float: left;
+								}
+								a {
+									font-style:     italic;
+									font-size:      13px;
+									letter-spacing: 0;
+									text-transform: none;
+									font-weight:    normal;
+								}
+								> span {
+									float: right;
+								}
+								.hb_package_remove {
+									padding-left:  8px;
+									padding-right: 8px;
+									float:         right;
+								}
+							}
+							&:before {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+			.hb_mini_cart_footer {
+				margin-top:  20px;
+				padding-top: 20px;
+				border-top:  1px solid $border-color;
+				display:     inline-block;
+				width:       100%;
+				.hb_button {
+					margin:         0 2px;
+					height:         40px;
+					border:         0;
+					border-radius:  0;
+					padding:        0 12px;
+					font-size:      12px;
+					font-weight:    bold;
+					text-transform: uppercase;
+					line-height:    40px;
+					min-width:      100px;
+					float:          left;
+					display:        inline-block;
+					&.hb_checkout {
+						margin-left: 0;
+					}
+					&.hb_view_cart {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+
+	// Best review
+	.widget_hb_widget_best_reviews {
+		padding: 30px 0 0 0;
+		h3 {
+			font-size:      18px;
+			text-align:     center;
+			line-height:    30px;
+			margin:         0 0 30px;
+			text-transform: uppercase;
+		}
+		.tp-hotel-booking {
+			.hb_room {
+				width:         100%;
+				margin-bottom: 0;
+				.summary {
+					border: none;
+					.content {
+						padding:    20px 15px;
+						text-align: center;
+						.title {
+							a {
+								font-size: 20px;
+							}
+						}
+						.rating {
+							position:      static;
+							margin-bottom: 25px;
+							margin-top:    10px;
+							.star-rating {
+								float:  none;
+								margin: 0 auto;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	//Room Slider Fix
+	.widget_hb_widget_carousel {
+		padding: 30px 30px 0 30px;
+		.tp-hotel-booking {
+			margin-bottom: 10px;
+		}
+		h3 {
+			font-size:      18px;
+			text-align:     center;
+			line-height:    30px;
+			margin:         0 0 30px;
+			text-transform: uppercase;
+		}
+		.rooms {
+			.hb_room {
+				padding:       0 30px 0 0;
+				margin-bottom: 0;
+				.summary {
+					border: none;
+					.content {
+						padding:    20px 15px;
+						text-align: center;
+						.rating {
+							position:      static;
+							margin-bottom: 25px;
+							margin-top:    10px;
+							.star-rating {
+								float:  none;
+								margin: 0 auto;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

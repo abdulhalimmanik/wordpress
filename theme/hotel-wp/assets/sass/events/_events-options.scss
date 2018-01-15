@@ -1,0 +1,178 @@
+/*
+ * Style for event from theme options */
+
+// Archive page
+.post-type-archive-tp_event {
+  .thim-event-tabs {
+    ul {
+      li {
+        &.tab {
+          a {
+            color: $thim_font_body_color;
+          }
+          &:hover a,
+          &.active a {
+            color: $thim_body_primary_color;
+            border-bottom-color: $thim_body_primary_color !important;
+          }
+        }
+      }
+    }
+  }
+
+  .archive-content.tab-content article {
+    .content-inner {
+      .event-content {
+        .entry-header {
+          .time-from {
+            .date {
+              color: $thim_body_primary_color;
+            }
+            .month {
+              color: $thim_body_primary_color;
+            }
+          }
+        }
+        .entry-content {
+          .view-detail {
+            color: $thim_body_primary_color;
+          }
+        }
+
+        &:after {
+          background: $thim_body_primary_color;
+        }
+      }
+    }
+  }
+}
+
+// Single page
+.single-tp_event {
+  article {
+    .tp-event-content {
+      .tp-event-info {
+        .tp-info-box {
+          i {
+            font-size: $thim_font_body_font_size;
+          }
+          p {
+            color: $thim_font_body_color;
+          }
+          .heading {
+            color: $thim_font_body_color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.thim-book-event {
+  .book-title {
+    color: $thim_body_primary_color;
+    font-family: $thim_font_body_font_family;
+  }
+  .event_register_area {
+    form {
+      ul {
+        li {
+          font-size: $thim_font_body_font_size;
+          input[type="number"] {
+            font-size: $thim_font_body_font_size;
+          }
+          input[type='radio'] {
+            &:checked:before {
+              background: $thim_body_primary_color;
+            }
+          }
+          &.event-cost .value {
+            color: $thim_body_primary_color;
+          }
+        }
+      }
+
+      .event_register_foot {
+        button {
+          font-family: $thim_font_body_font_family;
+          background: $thim_body_primary_color;
+          &:hover {
+            background: darken($thim_body_primary_color, 10%);
+          }
+        }
+      }
+    }
+  }
+  .event-auth-notice.error {
+    border-left-color: $thim_body_primary_color;
+  }
+  .event_auth_register_message_error {
+    a {
+      color: $thim_body_primary_color;
+    }
+  }
+}
+
+// Account page
+.thim-table-book-events {
+  >table {
+    thead th {
+      color: $thim_font_title_color;
+    }
+  }
+  > span,
+  > a {
+    &.page-numbers {
+      color: $thim_font_body_color;
+      &.current {
+        color: $thim_body_primary_color;
+        &:after {
+          background-color: $thim_body_primary_color;
+        }
+      }
+    }
+  }
+  > a {
+    &.page-numbers {
+      &:hover {
+        color: $thim_body_primary_color;
+      }
+    }
+  }
+}
+
+// Login page
+.thim-auth-login {
+  label {
+    color: $thim_font_body_color;
+  }
+
+  .login-area {
+    .button {
+      background: $thim_body_primary_color;
+      &:hover {
+        background: darken($thim_body_primary_color,10%);
+      }
+    }
+  }
+}
+
+.event-auth-form {
+  input {
+    &:focus {
+      border-color: $thim_body_primary_color !important;
+    }
+  }
+  p {
+    &.has-error {
+      label {
+        color: $thim_font_body_color;
+      }
+    }
+    &.submit {
+      color: $thim_font_body_color;
+      font-size: $thim_font_body_font_size;
+    }
+  }
+}
+

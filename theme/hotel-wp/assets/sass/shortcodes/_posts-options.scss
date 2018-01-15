@@ -1,0 +1,48 @@
+// Shortcode Thim Posts
+.thim-sc-posts {
+  &.site-content {
+    .blog-content {
+      article {
+        &.style-2 {
+          .entry-content {
+            .entry-title {
+              a {
+                &:hover {
+                  color: $thim_body_primary_color;
+                }
+              }
+            }
+            .readmore {
+              a {
+                &:hover {
+                  color: lighten($thim_body_primary_color, 10%) !important;
+                }
+              }
+            }
+          }
+        }
+        &.style-3 {
+          .entry-content {
+            .entry-category {
+              background-color: $thim_body_primary_color2;
+            }
+            .entry-title {
+              a {
+                &:hover {
+                  color: $thim_body_primary_color;
+                }
+              }
+            }
+            .readmore {
+              a {
+                &:hover {
+                  color: lighten($thim_body_primary_color, 10%) !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

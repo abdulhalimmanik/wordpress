@@ -1,0 +1,44 @@
+.thim-sc-text-banner {
+  .content-banner {
+    h3 {
+      font-size: 46px;
+      font-weight: normal;
+      color: #fff;
+      margin: 0;
+      line-height: 120%;
+      em {
+        font-weight: 300;
+        font-style: normal;
+      }
+      &.banner-title {
+        position: relative;
+        padding-left: 90px;
+        &:before {
+          width: 60px;
+          content: "";
+          display: inline-block;
+          vertical-align: middle;
+          position: absolute;
+          top: 50%;
+          left: 0;
+          border-top: 2px solid #fff;
+          @include translate(0%,-50%);
+        }
+      }
+    }
+    .banner-link {
+      display: inline-block;
+      margin-top: 60px;
+      margin-left: 100px;
+      font-size: 13px;
+      padding: 7px 30px;
+      color: #fff;
+      font-weight: bold;
+      border: 2px solid #fff;
+      &:hover {
+        background: #fff;
+      }
+    }
+  }
+}
+

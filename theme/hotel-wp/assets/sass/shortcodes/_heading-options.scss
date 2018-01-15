@@ -1,0 +1,43 @@
+.thim-sc-heading {
+  .article_heading {
+    .heading_primary {
+      color: $thim_body_primary_color;
+      &:before {
+        border-top: 2px solid $thim_body_primary_color;
+      }
+    }
+    .heading-button {
+      a, i {
+        color: $thim_body_primary_color;
+      }
+    }
+  }
+  &.introduce-heading {
+    .article_heading {
+      .heading-button {
+          a {
+            &:after {
+              background-color: $thim_body_primary_color;
+            }
+          }
+      }
+    }
+  }
+  &.thim-sc-heading2 {
+    .article_heading {
+      .heading_primary {
+        font-family: $thim_font_title_font_family;
+      }
+      .heading-button {
+        a {
+          background-color: $thim_body_primary_color;
+          &:hover {
+            background-color: darken($thim_body_primary_color,10%);
+          }
+        }
+      }
+    }
+  }
+}
+
+

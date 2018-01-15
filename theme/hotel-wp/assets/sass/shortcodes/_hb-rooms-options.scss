@@ -1,0 +1,13 @@
+.thim-sc-hb-rooms {
+  .link-to-rooms {
+    a, i {
+      color: $thim_body_primary_color;
+    }
+  }
+  .rooms.tp-hotel-booking .hb_room .summary .content .price span {
+    &.price_value,
+    &.unit {
+      color: $thim_body_primary_color;
+    }
+  }
+}

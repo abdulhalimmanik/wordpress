@@ -1,0 +1,39 @@
+.clear-after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.thim-button {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.thim-button-icon {
+  width: 10px;
+  max-width: 10px;
+  display: inline-block;
+  //vertical-align: middle;
+  margin-right: 10px;
+  @include rotation(90deg);
+  @include transition(all 1s);
+
+}
+
+.effect-zoom {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.no-effect-zoom {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}

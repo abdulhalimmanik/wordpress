@@ -1,0 +1,63 @@
+/*
+ * Page title style from customizer */
+
+.main-top {
+  height: $thim_page_title_height;
+  .overlay-top-header {
+    background-color: $thim_page_title_background_color;
+  }
+  .content {
+    padding-top: $thim_page_title_padding_top;
+    h1,
+    h2 {
+      font-size: $thim_font_page_title_font_size;
+      color: $thim_font_page_title_color;
+      line-height: $thim_font_page_title_font_size;
+    }
+
+    &.line {
+      h1,
+      h2 {
+        &:after {
+          background-color: $thim_body_primary_color;
+        }
+      }
+    }
+  }
+}
+
+#breadcrumbs li,
+body.woocommerce nav.woocommerce-breadcrumb {
+  font-family: $thim_font_body_font_family;
+  font-size: $thim_page_title_breadcrumb_font_size;
+  color: $thim_page_title_breadcrumb_color;
+  span, a {
+    font-size: $thim_page_title_breadcrumb_font_size;
+    color: $thim_page_title_breadcrumb_color;
+  }
+  a:hover {
+    color: $thim_body_primary_color;
+    span {
+      color: $thim_body_primary_color;
+    }
+  }
+}
+
+body.woocommerce {
+  nav.woocommerce-breadcrumb {
+    font-size: $thim_page_title_breadcrumb_font_size;
+    a:hover {
+      color: $thim_body_primary_color;
+    }
+  }
+}
+
+.icon-default {
+  #breadcrumbs,
+  .woocommerce-breadcrumb {
+    &:after {
+      background: $thim_page_title_breadcrumb_color;
+    }
+  }
+}
+

@@ -1,0 +1,43 @@
+/*
+ * Style for button */
+
+input[type="submit"],
+.button,
+.submit {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 0;
+	padding: 0px 20px;
+	line-height: 50px;
+	height: 50px;
+	display: inline-block;
+	&:hover {
+		color: #fff;
+	}
+}
+
+textarea {
+	padding: 20px;
+	height: auto !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+	width: 100%;
+	height: 50px;
+	padding: 0 20px;
+	font-size: 14px;
+	border: 1px solid $border-color;
+}
+
+.menu-right select {
+	outline: none !important;
+	font-weight: 700;
+}
+
+
+

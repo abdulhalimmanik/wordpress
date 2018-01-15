@@ -1,0 +1,75 @@
+@media (max-width: 480px) {
+  .tax-hb_room_type,
+  .post-type-archive-hb_room {
+    &.responsive {
+      .rooms.tp-hotel-booking {
+        margin-left: 0px;
+        margin-right: 0px;
+        > .hb_room {
+          width: 100%;
+          padding: 0px;
+        }
+      }
+    }
+  }
+
+  .single-hb_room {
+    &.responsive {
+      .summary {
+        .inner-content {
+          .title {
+            width: 100%;
+            margin-bottom: 0px;
+          }
+        }
+      }
+      .hb_related_other_room {
+        .hb_room {
+          width: 100%;
+          margin-bottom: 30px;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  #hotel-booking-cart {
+    .hb_gross_total {
+      display: none;
+    }
+  }
+  body.responsive #hotel-booking-cart table {
+    text-align: center;
+    thead {
+      th {
+        width: 100%;
+        float: left;
+        &:first-child {
+          display: none
+        }
+      }
+      .hb_quantity {
+        display: none;
+      }
+    }
+    tr, td {
+      width: 100%;
+      float: left;
+    }
+    .hb_remove_cart_item {
+      display: inline-block;
+    }
+    .hb_checkout_item.package {
+      td {
+        width: 33.33%;
+        line-height: 32px;
+      }
+    }
+  }
+
+  #hotel_booking_room_hidden {
+    min-width: 366px;
+  }
+  #hotel_booking_room_hidden .hb-search-results-form-container .hb-booking-room-form-group {
+    width: 100%;
+  }
+}

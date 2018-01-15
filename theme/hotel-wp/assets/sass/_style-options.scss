@@ -1,0 +1,45 @@
+/*
+ * Style Options
+ * Import style option all shortcodes, widgets
+ * Style all selector variable form customizer */
+
+$dev: true;
+
+@import "variables";
+
+@import "features/preloading/style-options";
+@import "features/back-to-top/back-to-top-options";
+@import "header/header-options";
+@import "page-title/page-title-options";
+@import "blog/blog-options";
+@import "sidebar/sidebar-options";
+@import "footer/footer-options";
+@import "typography/typography-options";
+@import "background/background-options";
+@import "buttons/buttons-options";
+@import "styles/styles-options";
+@import "vc-shortcodes/shortcodes-default-options";
+@import "events/events-options";
+@import "search/search-options";
+@import "text-banner/text-banner-options";
+@import "tp-hotel-booking/tp-hotel-options";
+@import "woocommerce/woo-options";
+@import "styles/coomingsoon-options";
+@import "styles/404-options";
+@import "styles/home3-options";
+
+// shortcodes
+@import "shortcodes/heading-options";
+@import "shortcodes/categories-link-options";
+@import "shortcodes/hb-rooms-options";
+@import "shortcodes/list-events-options";
+@import "shortcodes/testimonials-options";
+@import "shortcodes/hb-rooms-search-options";
+@import "shortcodes/filter-gallery-options";
+@import "shortcodes/social-link-options";
+@import "shortcodes/posts-options";
+@import "shortcodes/our-gallery-options";
+@import "shortcodes/video-options";
+@import "shortcodes/list-icon-box-options";
+
+

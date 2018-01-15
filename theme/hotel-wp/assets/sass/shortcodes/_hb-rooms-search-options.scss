@@ -1,0 +1,181 @@
+.hotel-booking-search {
+	&.layout-default {
+		form {
+			.hb-form-table {
+				.hb-form-field {
+					.hb_input_field {
+						&:after {
+							color: $thim_body_primary_color;
+						}
+					}
+					input {
+						color: $thim_font_title_color;
+					}
+				}
+			}
+
+			.hb-submit {
+				button {
+					background: $thim_body_primary_color;
+					&:hover {
+						background: darken($thim_body_primary_color, 10%);
+					}
+				}
+			}
+		}
+	}
+	&.layout-box {
+		form {
+			.hb-form-table {
+				.hb-form-field {
+					.label {
+						color: $thim_font_body_color;
+						font-size: $thim_font_body_font_size;
+						font-family: $thim_font_body_font_family;
+					}
+
+					.hb_input_field {
+						.month {
+							font-family: $thim_font_body_font_family;
+							color: $thim_font_title_color;
+						}
+
+						button {
+							color: $thim_body_primary_color;
+							&:hover {
+								color: darken($thim_body_primary_color, 10%);
+							}
+						}
+					}
+
+					.day,
+					select[name="adults_capacity"] {
+						font-family: $thim_font_body_font_family;
+						color: $thim_font_title_color;
+					}
+
+					.hb-guest-field {
+						span {
+							color: $thim_body_primary_color;
+							&:hover {
+								color: darken($thim_body_primary_color, 10%);
+							}
+						}
+					}
+				}
+
+			}
+			.hb-submit {
+				button {
+					font-size: $thim_font_body_font_size;
+					background: $thim_body_primary_color;
+					&:hover {
+						background: darken($thim_body_primary_color, 10%);
+					}
+				}
+			}
+		}
+	}
+	&.layout-special {
+		.hb-form-table {
+			.hb-form-field {
+				.hb_input_field {
+					input {
+						font-family: $thim_font_title_font_family;
+					}
+					input.day {
+						color: $thim_body_primary_color;
+					}
+				}
+				&.hb-form-number {
+					.hb-form-field-list {
+						.hb-form-field-input {
+							color: $thim_body_primary_color;
+						}
+						.select2-container--default {
+							.select2-selection--single {
+								.select2-selection__rendered {
+									color: $thim_body_primary_color;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.daterangepicker.dropdown-menu {
+			.calendar {
+				th.month {
+					color: $thim_body_primary_color;
+				}
+				tbody {
+					td {
+						&:hover, &.active, &.active.in-range {
+							background-color: $thim_body_primary_color;
+							border-color: $thim_body_primary_color;
+						}
+						&.in-range {
+							background-color: lighten($thim_body_primary_color,30%);
+							border-color: lighten($thim_body_primary_color,30%);
+						}
+					}
+				}
+			}
+		}
+		.hb-submit {
+			background-color: darken($thim_body_primary_color,10%);
+			button {
+				background-color: $thim_body_primary_color;
+				&:hover {
+					background-color: lighten($thim_body_primary_color,10%);
+				}
+			}
+		}
+	}
+}
+
+#ui-datepicker-div {
+	.ui-datepicker-title {
+		background: $thim_body_primary_color;
+		border: 1px solid $thim_body_primary_color;
+	}
+
+	select {
+		border-color: $border-color !important;
+		font-size: $thim_font_body_font_size;
+		color: $thim_font_body_color !important;
+	}
+	.ui-state-active {
+		background: $thim_body_primary_color;
+	}
+
+	.ui-datepicker-buttonpane {
+		button {
+			background: $thim_font_title_color;
+			&:hover {
+				border-color: $thim_body_primary_color;;
+			}
+			&.ui-datepicker-close {
+				background: $thim_body_primary_color;
+				&:hover {
+					background: darken($thim_body_primary_color, 10%);
+				}
+			}
+		}
+	}
+	dt {
+		color: $thim_font_title_color;
+	}
+	th {
+		color: $thim_font_title_color;
+	}
+	.ui-state-highlight,
+	.ui-widget-content .ui-state-highlight,
+	.ui-widget-header .ui-state-highlight {
+		background: $thim_body_primary_color;
+	}
+}
+
+.room-search-text-link {
+	color: $thim_font_title_color;
+}

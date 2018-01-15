@@ -1,0 +1,13 @@
+/*
+ * Include shortcodes default style from customize */
+
+// Gallery shortcode
+.wpb_gallery_slides {
+  .flex-control-nav {
+    li a {
+      &:hover, &.flex-active {
+        background: $thim_body_primary_color;
+      }
+    }
+  }
+}

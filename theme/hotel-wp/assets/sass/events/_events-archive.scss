@@ -1,0 +1,187 @@
+/*
+ * Style for event archive */
+
+.post-type-archive-tp_event {
+  .site-content {
+    padding-bottom: 40px;
+  }
+  .thim-event-tabs {
+    text-align: center;
+    margin-bottom: 55px;
+    ul {
+      margin: 0;
+      display: inline-block;
+      border: none;
+      li {
+        margin: 0 20px !important;
+        a {
+          padding: 8px 0;
+          border: none !important;
+          background: none !important;
+        }
+        &.tab {
+          a {
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-bottom: 2px solid transparent !important;
+          }
+        }
+      }
+    }
+  }
+
+  .archive-content.tab-content article {
+    margin-bottom: 60px;
+    &.col-md-4,
+    &.col-md-3 {
+      .content-inner {
+        .event-content {
+          .entry-header {
+            .time-from {
+              text-align: center;
+              width: 100px;
+              .date {
+                margin-top: -5px;
+                font-size: 50px;
+              }
+              .month {
+                max-width: 100px;
+              }
+            }
+            .blog_title {
+              margin: -5px 0 0;
+              font-size: 24px;
+              padding-left: 25px;
+              width: calc(100% - 100px);
+              width: -webkit-calc(100% - 100px);
+              width: -moz-calc(100% - 100px);
+            }
+          }
+          &:after {
+            width: 100px;
+          }
+        }
+      }
+    }
+
+    .content-inner {
+      position: relative;
+      .thumbnail {
+        position: relative;
+        overflow: hidden;
+        img {
+          width: 100%;
+          @include transition(all 1s);
+        }
+      }
+
+      &:hover {
+        .thumbnail {
+          img {
+            @extend .effect-zoom;
+          }
+        }
+        .event-content:after {
+          width: 100%;
+        }
+      }
+
+      .event-content {
+        position: relative;
+        margin-top: 40px;
+        padding-bottom: 50px;
+        .entry-header {
+          &:after {
+            @extend .clear-after;
+          }
+          .time-from {
+            float: left;
+            width: 120px;
+            font-weight: bold;
+            border-right: 1px solid $border-color;
+            .date {
+              font-size: 72px;
+              line-height: 100%;
+              margin-top: -9px;
+              margin-left: -2px;
+            }
+            .month {
+              line-height: 10px;
+              padding-top: 10px;
+              max-width: 80px;
+              text-align: center;
+              text-transform: uppercase;
+            }
+          }
+
+          .blog_title {
+            float: left;
+            padding-left: 40px;
+            margin: -12px 0 0;
+            line-height: 1.4em;
+            width: calc(100% - 120px);
+            width: -webkit-calc(100% - 120px);
+            width: -moz-calc(100% - 120px);
+          }
+        }
+
+        .entry-content {
+          margin-top: 30px;
+          line-height: 27px;
+          .view-detail {
+            @extend .thim-button;
+            i {
+              @extend .thim-button-icon;
+            }
+            &:hover {
+              i {
+                @extend .effect-right;
+              }
+            }
+          }
+        }
+
+        &:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          display: block;
+          width: 200px;
+          height: 2px;
+          @include transition(all 0.4s ease-in-out 0s);
+        }
+      }
+    }
+
+    .event_register_area {
+      display: none !important;
+    }
+
+    &.col-md-3 {
+      .time-from .date {
+        font-size: 36px !important;
+      }
+      .blog_title {
+        padding-left: 15px !important;
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  .pagination.event {
+    margin-top: 23px;
+    margin-bottom: 55px;
+    ul {
+      margin: 0;
+    }
+  }
+}
+
+.column-3 article:nth-child(3n+1){
+  clear: both;
+}
+
+.column-4 article:nth-child(4n+1){
+  clear: both;
+}

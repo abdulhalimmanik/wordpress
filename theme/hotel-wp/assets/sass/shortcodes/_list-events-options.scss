@@ -1,0 +1,20 @@
+.thim-sc-list-events {
+  border: 1px solid darken($thim_body_primary_color,10%);
+  .content-events {
+    .item-event {
+      .time-from {
+        .date,
+        .month {
+          color: $thim_body_primary_color;
+        }
+      }
+    }
+  }
+  .view-all {
+    color: $thim_body_primary_color;
+    i {
+      color: $thim_body_primary_color;
+    }
+  }
+}
+

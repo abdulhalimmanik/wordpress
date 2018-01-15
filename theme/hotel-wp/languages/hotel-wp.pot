@@ -1,0 +1,3599 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotel WP\n"
+"POT-Creation-Date: 2017-04-26 15:38-0800\n"
+"PO-Revision-Date: 2017-04-26 15:38-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.7.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:12
+msgid "Page Not Found!"
+msgstr ""
+
+#: 404.php:13
+msgid "Sorry, We couldn't find the page you're looking for."
+msgstr ""
+
+#: 404.php:14
+msgid "Try returning to the "
+msgstr ""
+
+#: 404.php:15
+msgid "Homepage"
+msgstr ""
+
+#: comments.php:27 inc/admin/customizer-sections/blog-general.php:102
+msgid "Comments"
+msgstr ""
+
+#: comments.php:32 comments.php:44
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:33 comments.php:45
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:34 comments.php:46
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:51
+msgid "No comments yet! You be the first to comment."
+msgstr ""
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:60
+msgid "Comment *"
+msgstr ""
+
+#: functions.php:51
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:56 inc/admin/customizer-sections/footer-copyright.php:39
+msgid "Copyright Menu"
+msgstr ""
+
+#: functions.php:117
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:119
+msgid ""
+"The primary sidebar appears alongside the content of every page, post, "
+"archive, and search template."
+msgstr ""
+
+#: functions.php:128
+msgid "Toolbar"
+msgstr ""
+
+#: functions.php:139
+msgid "Menu Right"
+msgstr ""
+
+#: functions.php:141
+msgid "Display widgets in right of primary menu."
+msgstr ""
+
+#: functions.php:149 functions.php:151
+msgid "Footer Top"
+msgstr ""
+
+#: functions.php:161
+#, php-format
+msgid "Footer Sidebar %s"
+msgstr ""
+
+#: functions.php:163
+msgid "The sidebar of the footer widget area."
+msgstr ""
+
+#: functions.php:173
+msgid "Events Sidebar"
+msgstr ""
+
+#: functions.php:175
+msgid "Sidebar Of Events"
+msgstr ""
+
+#: functions.php:185
+msgid "Rooms Sidebar"
+msgstr ""
+
+#: functions.php:187
+msgid "Sidebar Of Rooms"
+msgstr ""
+
+#: functions.php:197
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:199
+msgid "Sidebar Of Shop"
+msgstr ""
+
+#: functions.php:218
+msgid "Widget was created by the user."
+msgstr ""
+
+#: functions.php:309 inc/custom-functions.php:807
+msgid "Prev"
+msgstr ""
+
+#: functions.php:310 inc/custom-functions.php:808
+#: tp-event-auth/auths/my-account.php:56 tp-event-auth/auths/my-account.php:68
+#: wp-events-manager/shortcodes/user-account.php:58
+#: wp-events-manager/shortcodes/user-account.php:70
+msgid "Next"
+msgstr ""
+
+#: inc/admin/customizer-options.php:35
+#: inc/admin/customizer-sections/general-logo.php:13
+msgid "Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:12
+#: inc/admin/customizer-sections/footer-options.php:11
+#: inc/admin/customizer-sections/hotel-general.php:12
+#: inc/admin/customizer-sections/page-title.php:12
+#: inc/admin/customizer-sections/woocommerce-settings.php:12
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:25
+msgid "Archive Page"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:31
+msgid "Blog Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:32
+msgid "Choose a layout to display for archive post."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:37
+msgid "Masonry"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:38
+msgid "Grid"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:45
+msgid "Blog Columns"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:46
+msgid "Choose the number of columns for archive post."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:51
+#: inc/admin/customizer-sections/event-archive.php:89
+#: inc/admin/customizer-sections/woocommerce-settings.php:48
+msgid "2"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:52
+#: inc/admin/customizer-sections/event-archive.php:90
+#: inc/admin/customizer-sections/woocommerce-settings.php:49
+#: inc/admin/customizer-sections/woocommerce-settings.php:67
+msgid "3"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:53
+#: inc/admin/customizer-sections/event-archive.php:91
+#: inc/admin/customizer-sections/woocommerce-settings.php:50
+#: inc/admin/customizer-sections/woocommerce-settings.php:68
+msgid "4"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:60
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:61
+msgid ""
+"Choose the number of words you want to cut from the content to be the "
+"excerpt of search and archive"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:83
+msgid "Single Page"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:89
+msgid "Featured Image"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:90
+msgid "Turn on to display featured images on single blog posts.."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:94
+#: inc/admin/customizer-sections/blog-general.php:107
+#: inc/admin/customizer-sections/blog-general.php:120
+#: inc/admin/customizer-sections/footer-copyright.php:28
+#: inc/admin/customizer-sections/footer-copyright.php:45
+#: inc/admin/customizer-sections/footer-options.php:46
+#: inc/admin/customizer-sections/general-features.php:27
+#: inc/admin/customizer-sections/general-features.php:44
+#: inc/admin/customizer-sections/general-features.php:63
+#: inc/admin/customizer-sections/general-features.php:82
+#: inc/admin/customizer-sections/general-features.php:99
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:210
+#: inc/admin/customizer-sections/header-main-menu.php:136
+#: inc/admin/customizer-sections/header-sticky-menu.php:28
+#: inc/admin/customizer-sections/hotel-rooms.php:47
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:28
+#: inc/admin/customizer-sections/page-title.php:28
+#: inc/admin/customizer-sections/page-title.php:45
+#: inc/admin/customizer-sections/responsive.php:27
+#: inc/admin/customizer-sections/woocommerce-settings.php:84
+msgid "On"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:95
+#: inc/admin/customizer-sections/blog-general.php:108
+#: inc/admin/customizer-sections/blog-general.php:121
+#: inc/admin/customizer-sections/footer-copyright.php:29
+#: inc/admin/customizer-sections/footer-copyright.php:46
+#: inc/admin/customizer-sections/footer-options.php:47
+#: inc/admin/customizer-sections/general-features.php:28
+#: inc/admin/customizer-sections/general-features.php:45
+#: inc/admin/customizer-sections/general-features.php:64
+#: inc/admin/customizer-sections/general-features.php:83
+#: inc/admin/customizer-sections/general-features.php:100
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:211
+#: inc/admin/customizer-sections/header-main-menu.php:137
+#: inc/admin/customizer-sections/header-sticky-menu.php:29
+#: inc/admin/customizer-sections/hotel-rooms.php:48
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:29
+#: inc/admin/customizer-sections/page-title.php:29
+#: inc/admin/customizer-sections/page-title.php:46
+#: inc/admin/customizer-sections/responsive.php:28
+#: inc/admin/customizer-sections/woocommerce-settings.php:85
+msgid "Off"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:103
+msgid "Turn on to display comments."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:115
+msgid "Related Posts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:116
+msgid "Turn on to display related posts."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:128
+msgid "Numbers of Related Post"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:148
+msgid "Columns of Related Post"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:12
+#: inc/admin/customizer-sections/general-layouts.php:12
+#: inc/admin/customizer-sections/header-layouts.php:11
+#: inc/admin/customizer-sections/hotel-layouts.php:10
+#: inc/admin/customizer-sections/woocommerce-layouts.php:12
+msgid "Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:24
+msgid "Blog Archive Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:25
+msgid ""
+"Allows you to choose a layout to display for all blog archive, blog category "
+"page on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:42
+msgid "Sidebar Left For Blog Archive Layout "
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:43
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on Blog archive layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:64
+msgid "Sidebar Right For Blog Archive Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:65
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on Archive layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:88
+msgid "Blog Single Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:89
+msgid ""
+"Allows you to choose a layout to display for only blog single page on your "
+"site."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:106
+#: inc/admin/customizer-sections/general-layouts.php:123
+#: inc/admin/customizer-sections/woocommerce-layouts.php:100
+msgid "Sidebar Left For Post Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:107
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on Post layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:127
+#: inc/admin/customizer-sections/general-layouts.php:144
+#: inc/admin/customizer-sections/woocommerce-layouts.php:121
+msgid "Sidebar Right For Post Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:128
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on Post layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:12
+msgid "Meta Tags"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:22
+msgid "Show Author"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:23
+msgid "Allows you to show author meta tags to display at all blog page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:28
+#: inc/admin/customizer-sections/blog-meta.php:45
+#: inc/admin/customizer-sections/blog-meta.php:62
+#: inc/admin/customizer-sections/blog-meta.php:79
+#: inc/admin/customizer-sections/blog-meta.php:96
+#: inc/admin/customizer-sections/page-title-syling.php:80
+msgid "Show"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:29
+#: inc/admin/customizer-sections/blog-meta.php:46
+#: inc/admin/customizer-sections/blog-meta.php:63
+#: inc/admin/customizer-sections/blog-meta.php:80
+#: inc/admin/customizer-sections/blog-meta.php:97
+#: inc/admin/customizer-sections/page-title-syling.php:81
+msgid "Hide"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:39
+msgid "Show Date"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:40
+msgid "Allows you to show date meta tags to display at all blog page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:56
+msgid "Show Category"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:57
+msgid "Allows you to show category meta tags to display at single post page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:73
+msgid "Show Tags"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:74
+msgid "Allows you to show tags meta tags to display at single post page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:90
+msgid "Show Comment Number"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:91
+msgid "Allows you to show comment meta tags to display at single post page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:12
+msgid "Social Share"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:22
+#: inc/admin/customizer-sections/hotel-general.php:23
+msgid "Sortable Buttons Sharing"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:23
+#: inc/admin/customizer-sections/hotel-general.php:24
+msgid ""
+"Click on eye icons to show or hide buttons. Use drag and drop to change the "
+"position of social share icons.."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:34
+#: inc/admin/customizer-sections/hotel-general.php:33
+#: inc/custom-functions.php:960 shortcodes/social-link/tpl/default.php:47
+msgid "Facebook"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:35
+#: inc/admin/customizer-sections/hotel-general.php:34
+#: inc/custom-functions.php:956 shortcodes/social-link/tpl/default.php:50
+msgid "Twitter"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:36
+#: inc/admin/customizer-sections/hotel-general.php:35
+#: inc/custom-functions.php:964 inc/template-tags.php:211
+#: shortcodes/social-link/tpl/default.php:59
+msgid "Pinterest"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:37
+#: inc/admin/customizer-sections/hotel-general.php:36
+#: inc/custom-functions.php:968
+msgid "Google Plus"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:38
+msgid "Fancy"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog.php:12
+#: templates/page-title/page-title.php:196
+#: templates/page-title/page-title.php:202
+msgid "Blog"
+msgstr ""
+
+#: inc/admin/customizer-sections/event-archive.php:12
+msgid "Archive"
+msgstr ""
+
+#: inc/admin/customizer-sections/event-archive.php:22
+#: inc/admin/customizer-sections/general-layouts.php:43
+#: inc/admin/customizer-sections/hotel-layouts.php:22
+#: inc/admin/customizer-sections/woocommerce-layouts.php:22
+msgid "Archive Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/event-archive.php:23
+msgid "Allows you to choose a layout to display for all event archive page."
+msgstr ""
+
+#: inc/admin/customizer-sections/event-archive.php:40
+#: inc/admin/customizer-sections/general-layouts.php:61
+#: inc/admin/customizer-sections/hotel-layouts.php:40
+#: inc/admin/customizer-sections/woocommerce-layouts.php:40
+msgid "Sidebar Left For Archive Layout "
+msgstr ""
+
+#: inc/admin/customizer-sections/event-archive.php:41
+#: inc/admin/customizer-sections/woocommerce-layouts.php:41
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on product archive layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/event-archive.php:61
+#: inc/admin/customizer-sections/general-layouts.php:82
+#: inc/admin/customizer-sections/hotel-layouts.php:62
+#: inc/admin/customizer-sections/woocommerce-layouts.php:61
+msgid "Sidebar Right For Archive Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/event-archive.php:62
+#: inc/admin/customizer-sections/woocommerce-layouts.php:62
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on product archive layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/event-archive.php:82
+#: inc/admin/customizer-sections/woocommerce-settings.php:41
+msgid "Grid Columns"
+msgstr ""
+
+#: inc/admin/customizer-sections/event-archive.php:83
+msgid ""
+"Allows you to select a number make columns to display events per archive "
+"page."
+msgstr ""
+
+#: inc/admin/customizer-sections/event-archive.php:101
+msgid "Number Of Events Per Page"
+msgstr ""
+
+#: inc/admin/customizer-sections/event-archive.php:102
+msgid "Allows you to select a number to display event per archive page."
+msgstr ""
+
+#: inc/admin/customizer-sections/event-single.php:10
+msgid "Single"
+msgstr ""
+
+#: inc/admin/customizer-sections/event-single.php:20
+#: inc/admin/customizer-sections/general-layouts.php:105
+#: inc/admin/customizer-sections/hotel-layouts.php:86
+#: inc/admin/customizer-sections/woocommerce-layouts.php:82
+msgid "Single Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/event-single.php:21
+msgid "Allows you to choose a layout to display for all event Single page."
+msgstr ""
+
+#: inc/admin/customizer-sections/event-single.php:38
+msgid "Sidebar Left For Single Layout "
+msgstr ""
+
+#: inc/admin/customizer-sections/event-single.php:39
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on product Single layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/event-single.php:59
+#: inc/admin/customizer-sections/hotel-layouts.php:125
+msgid "Sidebar Right For Single Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/event-single.php:60
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on product Single layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/event.php:12
+#: templates/page-title/page-title.php:142
+#: templates/page-title/page-title.php:174
+#: tp-event-auth/auths/my-account.php:20
+#: wp-events-manager/shortcodes/user-account.php:22
+msgid "Events"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:11
+msgid "Copyright"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:22
+msgid "Show Copyright Text"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:23
+msgid "Turn on to display the copyright bar."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:40
+msgid "Turn on to display the copyright menu."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:56
+#: inc/admin/customizer-sections/footer-options.php:95
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:34
+#: inc/admin/customizer-sections/general-styling.php:144
+#: inc/admin/customizer-sections/header-layouts.php:59
+#: inc/admin/customizer-sections/header-sticky-menu.php:57
+#: inc/admin/customizer-sections/header-sub-menu.php:22
+#: inc/admin/customizer-sections/page-title.php:76
+#: inc/admin/customizer-sections/responsive.php:80
+msgid "Background Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:57
+msgid "Allows you to choose background color for your copyright area. "
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:78
+#: inc/admin/customizer-sections/footer-options.php:116
+msgid "Colors"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:82
+msgid "Border"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:83
+#: inc/admin/customizer-sections/footer-options.php:121
+msgid "Text"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:84
+#: inc/admin/customizer-sections/footer-options.php:122
+msgid "Link"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:85
+#: inc/admin/customizer-sections/footer-options.php:123
+msgid "Hover"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:126
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:127
+msgid ""
+"Enter the text that displays in the copyright bar. HTML markup can be used."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:22
+msgid "Footer Style"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:23
+msgid "Allows you to select style for footer. "
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:29
+#: inc/admin/customizer-sections/hotel-rooms.php:30
+#: shortcodes/posts/posts.php:99
+msgid "Style 1"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:30
+#: inc/admin/customizer-sections/hotel-rooms.php:31
+#: shortcodes/posts/posts.php:100
+msgid "Style 2"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:40
+msgid "Show Footer Widgets"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:41
+msgid "Turn on to display footer widgets."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:57
+msgid "Sidebar Number"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:58
+msgid "Controls the number of columns in the footer."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:82
+msgid "Width Column"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:83
+msgid ""
+"Enter width of the ( columns 1 + columns 2 + columns 3 + columns 4 ) total "
+"of 12."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:120
+#: inc/admin/customizer-sections/page-title-syling.php:12
+#: shortcodes/list-icon-box/list-icon-box.php:62
+#: shortcodes/our-gallery/our-gallery.php:62 shortcodes/video/video.php:56
+msgid "Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer.php:12
+msgid "Footer"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-custom-css.php:12
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-custom-css.php:20
+msgid ""
+"Just want to do some quick CSS changes? Enter theme here, they will be "
+"applied to the theme."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:13
+msgid "Extra Features"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:22
+msgid "RTL Support"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:38
+msgid "Smooth Scrolling"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:39
+msgid "Turn on to enable smooth scrolling."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:57
+msgid "Open Graph Meta Tags"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:58
+msgid ""
+"Turn on to enable open graph meta tags which is mainly used when sharing "
+"pages on social networking sites like Facebook."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:76
+msgid "Back To Top"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:77
+msgid ""
+"Turn on to enable the Back To Top script which adds the scrolling to top "
+"functionality."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:93
+msgid "Google Theme"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:94
+msgid "Turn on to set the toolbar color in Chrome for Android."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:110
+msgid "Google Theme Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:130
+msgid "Preloading"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:154
+msgid "Preloading Custom Image"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:170
+msgid "Preloading Style"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:174
+msgid "Background color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:175
+msgid "Icon color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:24
+msgid "Site Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:25
+msgid "Allows you to choose a layout to display for all contents on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:44
+msgid ""
+"Allows you to choose a layout to display for all archive pages on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:62
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on archive layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:83
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on archive layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:106
+msgid "Allows you to choose a layout to display for single pages on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:124
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on single layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:145
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on single layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:167
+msgid "Page Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:168
+msgid "Allows you to choose a layout to display for all pages on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:185
+msgid "Sidebar Left For Page Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:186
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on page layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:206
+msgid "Sidebar Right For Page Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:207
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on page layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:14
+msgid "Allows you to add, remove, change logo on your site. "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:26
+msgid "Sticky Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:27
+msgid "Allows you to add, remove, change sticky logo on your site. "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:39
+msgid "Retina Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:40
+msgid ""
+"Select an image file for the retina version of the logo. It should be "
+"exactly 2x the size of the logo."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:50
+msgid "Logo width"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:51
+msgid ""
+"Allows you to assign a value for logo width. Example: 10px, 3em, 48%, 90vh "
+"etc."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:16
+msgid "Boxed Background"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:21
+#: inc/admin/customizer-sections/general-styling.php:130
+msgid "Select Background Type"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:22
+msgid ""
+"Allows you to select a background for body content when you selected box "
+"layout in General Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:26
+#: inc/admin/customizer-sections/general-styling.php:135
+msgid "Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:27
+#: inc/admin/customizer-sections/general-styling.php:136
+msgid "Image"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:28
+#: inc/admin/customizer-sections/general-styling.php:137
+msgid "Pattern"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:57
+#: inc/admin/customizer-sections/general-styling.php:167
+msgid "Background image"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:78
+#: inc/admin/customizer-sections/general-styling.php:188
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:82
+#: inc/admin/customizer-sections/general-styling.php:192
+msgid "Tile"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:83
+#: inc/admin/customizer-sections/general-styling.php:193
+msgid "Tile Horizontally"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:84
+#: inc/admin/customizer-sections/general-styling.php:194
+msgid "Tile Vertically"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:85
+#: inc/admin/customizer-sections/general-styling.php:195
+msgid "No Repeat"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:106
+#: inc/admin/customizer-sections/general-styling.php:216
+msgid "Background Position"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:110
+#: inc/admin/customizer-sections/general-styling.php:220
+#: inc/admin/customizer-sections/responsive.php:66
+msgid "Left"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:111
+#: inc/admin/customizer-sections/general-styling.php:221
+msgid "Center"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:112
+#: inc/admin/customizer-sections/general-styling.php:222
+#: inc/admin/customizer-sections/responsive.php:67
+msgid "Right"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:133
+#: inc/admin/customizer-sections/general-styling.php:243
+msgid "Background Attachment"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:137
+#: inc/admin/customizer-sections/general-styling.php:247
+msgid "Scroll"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:138
+#: inc/admin/customizer-sections/general-styling.php:248
+msgid "Fixed"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:159
+#: inc/admin/customizer-sections/general-styling.php:269
+msgid "Select a Background Pattern"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:205
+msgid "Boxed Layouts Box Shadow"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:206
+msgid ""
+"Allows you to enable or disable box shadow at body tag when you selected "
+"boxed layout. "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:12
+msgid "Styling"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:22
+msgid "Primary Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:23
+msgid "Allows you to choose a primary color for your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:100
+msgid "Primary Color 2"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:101
+msgid "Allows you to choose a primary color 2 for your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:125
+msgid "Main Content Background"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:131
+msgid "Allows you to select a background for body tag content on your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:16
+msgid "Headings"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:20
+msgid "Heading Font-Family"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:21
+msgid "Allows you to select font-family for headings (h1, h2, h3, h4, h5, h6)"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:57
+msgid "Heading 1"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:58
+msgid "Allows you to select all font properties of H1 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:88
+msgid "Heading 2"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:89
+msgid "Allows you to select all font properties of H2 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:119
+msgid "Heading 3"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:120
+msgid "Allows you to select all font properties of H3 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:150
+msgid "Heading 4"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:151
+msgid "Allows you to select all font properties of H4 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:181
+msgid "Heading 5"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:182
+msgid "Allows you to select all font properties of H5 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:212
+msgid "Heading 6"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:213
+msgid "Allows you to select all font properties of H6 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:13
+msgid "Typography"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:25
+msgid "Body"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:29
+#: inc/admin/customizer-sections/header-main-menu.php:29
+msgid "Body Font"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:30
+msgid "Allows you to select all font properties of body tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general.php:12
+msgid "General"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:22
+msgid "Header Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:23
+msgid "Allows you to select header layout for header on your site. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:41
+msgid "Header Positions"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:42
+msgid "Allows you to select layout position for header layout. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:48
+#: shortcodes/categories-link/categories-link.php:45
+#: shortcodes/google-map/google-map.php:131
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:26
+#: shortcodes/heading/heading.php:34 shortcodes/heading/heading.php:136
+#: shortcodes/posts/posts.php:62 shortcodes/testimonials/testimonials.php:87
+#: woocommerce/woocommerce.php:65
+msgid "Default"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:49
+msgid "Overlay"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:60
+msgid "Allows you to choose background color for your header. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:11
+msgid "Main Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:22
+msgid "Font Family"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:23
+msgid "Allows you to select font title or body. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:30
+msgid "Title Font"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:40
+msgid "Fonts"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:41
+msgid "Allows you to select all font font properties for header. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:95
+msgid "Text Color Hover"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:96
+msgid "Allows you to select color for text link when hover text link . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:130
+msgid "Show magic line"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:131
+msgid ""
+"Allows you to show or hide magic line under main menu on header. Line color "
+"same as main menu color."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:11
+msgid "Sticky Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:22
+msgid "Sticky On Scroll"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:23
+msgid "Allows you to show or hide header sticky menu on your site . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:39
+msgid "Select style"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:40
+msgid "Allows you to select sticky menu style for your header . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:46
+msgid "The same with main menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:47
+#: shortcodes/categories-link/categories-link.php:46
+#: shortcodes/heading/heading.php:35 shortcodes/heading/heading.php:137
+#: shortcodes/posts/posts.php:63
+msgid "Custom"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:58
+msgid "Choose a background color for sticky menu on the header."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:86
+#: inc/admin/customizer-sections/header-sub-menu.php:44
+#: inc/admin/customizer-sections/responsive.php:105
+msgid "Text Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:87
+msgid "Choose a text color for sticky menu on the header."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:118
+#: inc/admin/customizer-sections/header-sub-menu.php:67
+#: inc/admin/customizer-sections/responsive.php:131
+msgid "Text Hover Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:119
+msgid ""
+"Choose a link color when users hover over text link on sticky menu on the "
+"header."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:11
+msgid "Sub Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:23
+msgid "Choose a background color for sub menu on the header."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:45
+msgid "Choose a text color for sub menu on the header."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:68
+msgid ""
+"Choose a link color when users hover over text link on sub menu on the "
+"header."
+msgstr ""
+
+#: inc/admin/customizer-sections/header.php:13
+msgid "Header"
+msgstr ""
+
+#: inc/admin/customizer-sections/hotel-layouts.php:23
+msgid "Allows you to choose a layout to display rooms."
+msgstr ""
+
+#: inc/admin/customizer-sections/hotel-layouts.php:41
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on Rooms layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/hotel-layouts.php:63
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on Rooms layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/hotel-layouts.php:87
+msgid ""
+"Allows you to choose a layout to display for only room page on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/hotel-layouts.php:104
+msgid "Sidebar Left For Single Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/hotel-layouts.php:105
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on Room layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/hotel-layouts.php:126
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on Room layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/hotel-rooms.php:12
+#: templates/page-title/page-title.php:146
+msgid "Rooms"
+msgstr ""
+
+#: inc/admin/customizer-sections/hotel-rooms.php:23
+msgid "Rooms Style"
+msgstr ""
+
+#: inc/admin/customizer-sections/hotel-rooms.php:24
+msgid "Allows you to select style for rooms page. "
+msgstr ""
+
+#: inc/admin/customizer-sections/hotel-rooms.php:41
+msgid "Show/Hide Book Now"
+msgstr ""
+
+#: inc/admin/customizer-sections/hotel-rooms.php:42
+msgid "Turn on to enable Book Now on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/hotel.php:10
+msgid "Hotel Booking"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-bar.php:11
+msgid "Page Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:12
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:22
+msgid "Hide Breadcrumb"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:23
+msgid "Allows you to HIDE breadcrumb on page title bar. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:41
+msgid "Breadcrumb Icon"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:53
+msgid "Breadcrumb Fonts"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:54
+msgid "Allows you to select font properties for breadcrumb. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-syling.php:22
+msgid "Padding Top"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-syling.php:23
+msgid ""
+"You can choose padding top from page title to menu in header overlay layout. "
+"Example: 10px, 3em, 48%, 90vh etc."
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-syling.php:43
+msgid "Fonts Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-syling.php:44
+msgid "Allows you to select font properties for page title. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-syling.php:74
+msgid "Show line"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-syling.php:75
+msgid "Allows you to show line under title."
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:22
+msgid "Show Page Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:23
+msgid "Allows you to enable or disable page title on heading top. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:39
+msgid "Hide Page Title Contents"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:40
+msgid "Allows you to HIDE page title content on page title bar. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:56
+msgid "Upload Background Image"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:57
+msgid "Upload an image for the background image of the page title."
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:77
+msgid ""
+"If you do not use background image, then can use background color for page "
+"title on heading top. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:98
+#: shortcodes/google-map/google-map.php:50
+msgid "Height"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:99
+msgid ""
+"Assign a value for page title height. Example: 100px, 30em, 48%, 90vh etc.."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:11
+#: inc/admin/customizer-sections/responsive.php:21
+msgid "Responsive"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:22
+msgid "Turn on to enable responsive on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:39
+msgid "Mobile Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:40
+msgid "Allows you to add, remove, change mobile logo on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:54
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:59
+msgid "Position"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:60
+msgid ""
+"Allows you to select a mobile menu effect position for header on mobile."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:81
+msgid ""
+"Allows you to select a color make background color for header on mobile. "
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:106
+msgid "Allows you to select a color make color of header text on mobile."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:132
+msgid ""
+"Allows you to select color for text link when hover text link on mobile."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:163
+msgid "Icon Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:164
+msgid "Allows you to select a color make color of mobile menu icon."
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:11
+msgid "Sidebars"
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:21
+msgid "Sidebar Title Fonts"
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:22
+msgid "Allows you to select font properties for sidebars title. "
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:50
+msgid "Widget Background Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:51
+msgid "Allows you to choose a background color for widget on sidebar. "
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:72
+msgid "Widget Margin Bottom"
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:73
+msgid ""
+"Choose the number of words you want to space between widgets on sidebars. "
+"Example: 10px, 3em, 48%, 90vh etc."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-layouts.php:23
+msgid ""
+"Allows you to choose a layout to display for all woocommerce archive page."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-layouts.php:83
+msgid ""
+"Allows you to choose a layout to display for only product single page on "
+"your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-layouts.php:101
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on product single page."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-layouts.php:122
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on product single page."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-settings.php:22
+msgid "Number Of Products Per Page"
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-settings.php:23
+msgid "Allows you to select a number to display product per archive page."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-settings.php:42
+msgid ""
+"Allows you to select a number make columns to display product per archive "
+"page."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-settings.php:60
+msgid "Related Product Numbers"
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-settings.php:61
+msgid ""
+"Allows you to select a number make numbers to display related for single "
+"page."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-settings.php:78
+msgid "Show QuickView"
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-settings.php:79
+msgid "Allows you to enable or disable quickview in shop page. "
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce.php:11
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/admin/require-thim-core.php:55
+msgid "Install and active ThimPress Core to start now!"
+msgstr ""
+
+#: inc/custom-functions.php:179
+msgid "Year"
+msgstr ""
+
+#: inc/custom-functions.php:181
+msgid "Month"
+msgstr ""
+
+#: inc/custom-functions.php:183
+msgid "Day"
+msgstr ""
+
+#: inc/custom-functions.php:234 inc/custom-functions.php:290
+#: inc/custom-functions.php:292 inc/custom-functions.php:294
+#: inc/custom-functions.php:298 inc/custom-functions.php:299
+#: inc/template-tags.php:544
+msgid "Archives"
+msgstr ""
+
+#: inc/custom-functions.php:236
+msgid "Author"
+msgstr ""
+
+#: inc/custom-functions.php:238
+msgid "Page"
+msgstr ""
+
+#: inc/custom-functions.php:240
+msgid "Search results for:"
+msgstr ""
+
+#: inc/custom-functions.php:242
+msgid "404 Error"
+msgstr ""
+
+#: inc/custom-functions.php:266
+msgid "Home"
+msgstr ""
+
+#: inc/custom-functions.php:318
+msgid "-- Select Sidebar --"
+msgstr ""
+
+#: inc/custom-functions.php:715
+msgid "Happening"
+msgstr ""
+
+#: inc/custom-functions.php:722
+msgid "Upcoming"
+msgstr ""
+
+#: inc/custom-functions.php:729 tp-event-auth/form-book-event.php:84
+#: wp-events-manager/loop/booking-form.php:84
+msgid "Expired"
+msgstr ""
+
+#: inc/custom-functions.php:863 tp-event/content-single-event.php:65
+#: wp-events-manager/content-single-event.php:80
+msgid "Address"
+msgstr ""
+
+#: inc/custom-functions.php:885
+msgid "has been expired"
+msgstr ""
+
+#: inc/custom-functions.php:887 inc/custom-functions.php:902
+msgid "You have registered this event before."
+msgstr ""
+
+#: inc/custom-functions.php:1079
+msgid "Please add a menu to primary location"
+msgstr ""
+
+#: inc/custom-functions.php:1087 inc/custom-functions.php:1099
+msgid "Infomation Posts"
+msgstr ""
+
+#: inc/data/demos.php:7
+msgid "Demo 01"
+msgstr ""
+
+#: inc/data/demos.php:28
+msgid "Demo 02"
+msgstr ""
+
+#: inc/data/demos.php:49
+msgid "Demo 03"
+msgstr ""
+
+#: inc/data/demos.php:70
+msgid "Demo RTL"
+msgstr ""
+
+#: inc/extras.php:276
+msgid "Coming Soon Mode - Settings"
+msgstr ""
+
+#: inc/extras.php:285
+msgid "Date"
+msgstr ""
+
+#: inc/extras.php:290
+msgid "Background Images"
+msgstr ""
+
+#: inc/libs/class_widget_attributes.php:37
+msgid "Extra Class"
+msgstr ""
+
+#: inc/template-tags.php:25
+msgid "by "
+msgstr ""
+
+#: inc/template-tags.php:70
+msgid "Categories: "
+msgstr ""
+
+#: inc/template-tags.php:97
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:99
+#, php-format
+msgid "Tags: %1$s"
+msgstr ""
+
+#: inc/template-tags.php:347 tp-hotel-booking/single-room-reviews.php:60
+#: wp-hotel-booking/single-room-reviews.php:60
+msgid "Name"
+msgstr ""
+
+#: inc/template-tags.php:348 tp-event-auth/auths/form-register.php:38
+#: tp-hotel-booking/single-room-reviews.php:62
+#: wp-events-manager/shortcodes/form-register.php:33
+#: wp-hotel-booking/single-room-reviews.php:62
+msgid "Email"
+msgstr ""
+
+#: inc/template-tags.php:349
+msgid "Website"
+msgstr ""
+
+#: inc/template-tags.php:386
+msgid " at "
+msgstr ""
+
+#: inc/template-tags.php:395
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:399
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:506 inc/template-tags.php:508
+#: inc/template-tags.php:510 inc/template-tags.php:536
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:512
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:512
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:514
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:514
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:516
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:516
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:518
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:520
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:522
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:524
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:526
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:528
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:530
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:532
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:534
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:540
+msgid "404 error"
+msgstr ""
+
+#: inc/template-tags.php:542
+msgid "Search Results Page"
+msgstr ""
+
+#: searchform.php:6
+msgid "Search..."
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:13
+msgid "Thim Categories Link"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:16
+#: shortcodes/counter-box/counter-box.php:21
+#: shortcodes/filter-gallery/filter-gallery.php:11
+#: shortcodes/google-map/google-map.php:23
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:16
+#: shortcodes/hb-rooms/hb-rooms.php:11 shortcodes/heading/heading.php:15
+#: shortcodes/list-events/list-events.php:14
+#: shortcodes/list-icon-box/list-icon-box.php:50
+#: shortcodes/our-gallery/our-gallery.php:56 shortcodes/posts/posts.php:18
+#: shortcodes/social-link/social-link.php:26
+#: shortcodes/testimonials/testimonials.php:56 shortcodes/video/video.php:50
+#: shortcodes/weather/weather.php:50
+msgid "Thim Shortcodes"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:17
+msgid "Display Categories link."
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:22
+msgid "Background Image"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:31
+msgid "Categories Title"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:35
+msgid "Categories Title."
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:42
+msgid "Use custom or default categories title?"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:48
+#: shortcodes/heading/heading.php:37 shortcodes/heading/heading.php:139
+msgid ""
+"If you select default you will use default title which customized in "
+"typography."
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:55
+msgid "Categories title color "
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:58
+msgid "Select the categories title color."
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:68
+msgid "Categories title size "
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:73
+msgid "Select the categories title size."
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:83
+msgid "Categories title font weight "
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:86
+#: shortcodes/heading/heading.php:75
+msgid "Choose the title font weight"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:87
+#: shortcodes/heading/heading.php:76
+msgid "Normal"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:88
+#: shortcodes/heading/heading.php:77
+msgid "Bold"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:89
+#: shortcodes/heading/heading.php:78
+msgid "Bolder"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:90
+#: shortcodes/heading/heading.php:79
+msgid "Lighter"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:92
+msgid "Select the categories title font weight."
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:102
+msgid "Categories title font style "
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:105
+#: shortcodes/heading/heading.php:94 shortcodes/heading/heading.php:197
+msgid "Choose the title font style"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:106
+#: shortcodes/heading/heading.php:95 shortcodes/heading/heading.php:198
+msgid "Italic"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:107
+#: shortcodes/heading/heading.php:96 shortcodes/heading/heading.php:199
+msgid "Oblique"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:108
+#: shortcodes/heading/heading.php:97 shortcodes/heading/heading.php:200
+msgid "Initial"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:109
+#: shortcodes/heading/heading.php:98 shortcodes/heading/heading.php:201
+msgid "Inherit"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:111
+msgid "Select the categories title font style."
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:122
+msgid "Categories title alignment"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:126
+msgid "Title at center bottom"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:127
+msgid "Title at center center"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:128
+msgid "Title at right"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:140
+msgid "Show line?"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:142
+msgid "Tick it to show line in bottom of title."
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:152
+msgid "Categories Link"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:156
+msgid "Categories Link."
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:162
+#: shortcodes/filter-gallery/filter-gallery.php:29
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:51
+#: shortcodes/hb-rooms/hb-rooms.php:40 shortcodes/heading/heading.php:258
+#: shortcodes/list-events/list-events.php:40 shortcodes/posts/posts.php:167
+#: shortcodes/testimonials/testimonials.php:123
+msgid "Animation"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:166
+#: shortcodes/filter-gallery/filter-gallery.php:33
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:55
+#: shortcodes/hb-rooms/hb-rooms.php:44 shortcodes/heading/heading.php:262
+#: shortcodes/list-events/list-events.php:44 shortcodes/posts/posts.php:171
+#: shortcodes/testimonials/testimonials.php:127 shortcodes/video/video.php:92
+#: shortcodes/video/video.php:104 shortcodes/video/video.php:117
+#: shortcodes/video/video.php:129
+msgid "No"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:167
+#: shortcodes/filter-gallery/filter-gallery.php:34
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:56
+#: shortcodes/hb-rooms/hb-rooms.php:45 shortcodes/heading/heading.php:263
+#: shortcodes/list-events/list-events.php:45 shortcodes/posts/posts.php:172
+#: shortcodes/testimonials/testimonials.php:128
+msgid "Top to bottom"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:168
+#: shortcodes/filter-gallery/filter-gallery.php:35
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:57
+#: shortcodes/hb-rooms/hb-rooms.php:46 shortcodes/heading/heading.php:264
+#: shortcodes/list-events/list-events.php:46 shortcodes/posts/posts.php:173
+#: shortcodes/testimonials/testimonials.php:129
+msgid "Bottom to top"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:169
+#: shortcodes/filter-gallery/filter-gallery.php:36
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:58
+#: shortcodes/hb-rooms/hb-rooms.php:47 shortcodes/heading/heading.php:265
+#: shortcodes/list-events/list-events.php:47 shortcodes/posts/posts.php:174
+#: shortcodes/testimonials/testimonials.php:130
+msgid "Left to right"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:170
+#: shortcodes/filter-gallery/filter-gallery.php:37
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:59
+#: shortcodes/hb-rooms/hb-rooms.php:48 shortcodes/heading/heading.php:266
+#: shortcodes/list-events/list-events.php:48 shortcodes/posts/posts.php:175
+#: shortcodes/testimonials/testimonials.php:131
+msgid "Right to left"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:171
+#: shortcodes/filter-gallery/filter-gallery.php:38
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:60
+#: shortcodes/hb-rooms/hb-rooms.php:49 shortcodes/heading/heading.php:267
+#: shortcodes/list-events/list-events.php:49 shortcodes/posts/posts.php:176
+#: shortcodes/testimonials/testimonials.php:132
+msgid "Appear from center"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:173
+#: shortcodes/filter-gallery/filter-gallery.php:40
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:62
+#: shortcodes/hb-rooms/hb-rooms.php:51 shortcodes/heading/heading.php:269
+#: shortcodes/list-events/list-events.php:51 shortcodes/posts/posts.php:178
+#: shortcodes/testimonials/testimonials.php:135
+msgid ""
+"Select type of animation if you want this element to be animated when it "
+"enters into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:179
+#: shortcodes/filter-gallery/filter-gallery.php:46
+#: shortcodes/google-map/google-map.php:140
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:69
+#: shortcodes/hb-rooms/hb-rooms.php:58 shortcodes/heading/heading.php:275
+#: shortcodes/list-events/list-events.php:58 shortcodes/posts/posts.php:185
+#: shortcodes/testimonials/testimonials.php:143
+msgid "Extra class"
+msgstr ""
+
+#: shortcodes/categories-link/categories-link.php:182
+#: shortcodes/filter-gallery/filter-gallery.php:49
+#: shortcodes/google-map/google-map.php:143
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:72
+#: shortcodes/hb-rooms/hb-rooms.php:61 shortcodes/heading/heading.php:278
+#: shortcodes/list-events/list-events.php:61 shortcodes/posts/posts.php:188
+#: shortcodes/testimonials/testimonials.php:146
+msgid ""
+"Add extra class name that will be applied to the icon box, and you can use "
+"this class for your customizations."
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:18
+msgid "Thim Counter Box"
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:22
+msgid "Display counter box."
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:38
+#: shortcodes/hb-rooms-search/tpl/default.php:128
+msgid "Number"
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:40
+msgid "Enter number in box to count."
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:45
+msgid "Label"
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:49
+msgid "Label counter box."
+msgstr ""
+
+#: shortcodes/filter-gallery/filter-gallery.php:8
+msgid "Thim Filter Gallery"
+msgstr ""
+
+#: shortcodes/filter-gallery/filter-gallery.php:12
+msgid "Display Gallery."
+msgstr ""
+
+#: shortcodes/filter-gallery/filter-gallery.php:18
+msgid "Number of columns"
+msgstr ""
+
+#: shortcodes/filter-gallery/filter-gallery.php:23
+msgid "Gallery shortcode supports maximum 4 columns."
+msgstr ""
+
+#: shortcodes/filter-gallery/tpl/default.php:44
+msgid "All"
+msgstr ""
+
+#: shortcodes/functions.php:30
+msgid "ion-ribbon-a"
+msgstr ""
+
+#: shortcodes/functions.php:31
+msgid "ion-ios-flower"
+msgstr ""
+
+#: shortcodes/functions.php:32
+msgid "ion-ios-nutrition"
+msgstr ""
+
+#: shortcodes/functions.php:33
+msgid "ion-bonfire"
+msgstr ""
+
+#: shortcodes/functions.php:34
+msgid "ion-planet"
+msgstr ""
+
+#: shortcodes/functions.php:35
+msgid "ion-lightbulb"
+msgstr ""
+
+#: shortcodes/functions.php:36
+msgid "ion-cube"
+msgstr ""
+
+#: shortcodes/functions.php:37
+msgid "ion-leaf"
+msgstr ""
+
+#: shortcodes/functions.php:38
+msgid "ion-waterdrop"
+msgstr ""
+
+#: shortcodes/functions.php:39
+msgid "ion-umbrella"
+msgstr ""
+
+#: shortcodes/functions.php:40
+msgid "ion-nuclear"
+msgstr ""
+
+#: shortcodes/functions.php:41
+msgid "ion-person"
+msgstr ""
+
+#: shortcodes/functions.php:42
+msgid "ion-heart"
+msgstr ""
+
+#: shortcodes/functions.php:43
+msgid "ion-briefcase"
+msgstr ""
+
+#: shortcodes/functions.php:44
+msgid "ion-location"
+msgstr ""
+
+#: shortcodes/functions.php:45
+msgid "ion-calendar"
+msgstr ""
+
+#: shortcodes/functions.php:46
+msgid "ion-chatbubbles"
+msgstr ""
+
+#: shortcodes/functions.php:47
+msgid "ion-wifi"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:21
+msgid "Thim Google Map"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:24
+msgid "Display Google map."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:31
+msgid "Map center"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:34
+msgid "Center St Newton Center, Boston, United States"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:35
+msgid ""
+"The name of a place, town, city, or even a country. Can be an exact address "
+"too."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:42
+msgid "Google Map API Key"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:55
+msgid "Height of the map."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:62
+msgid "Zoom level"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:67
+msgid "A value from 0 (the world) to 21 (street level)."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:73
+msgid "Marker"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:75
+msgid "Show marker at map center."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:81
+msgid "Choose marker icon"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:85
+msgid "Replaces the default map marker with your own image."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:92
+msgid "Scroll to zoom"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:94
+msgid "Allow scrolling over the map to zoom in or out."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:100
+msgid "Draggable"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:102
+msgid "Allow dragging the map to move it around."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:108
+msgid "Use Cover"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:110
+msgid "Show image cover before load google map. (optimzie speed load page)"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:117
+msgid "Choose cover image"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:128
+msgid "Map Style"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:132
+msgid "Ultra Light with Labels"
+msgstr ""
+
+#: shortcodes/google-map/tpl/default.php:6
+msgid "Our Address"
+msgstr ""
+
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:13
+msgid "Thim HB Rooms Search"
+msgstr ""
+
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:17
+msgid "Display form rooms search."
+msgstr ""
+
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:22
+msgid "Styles"
+msgstr ""
+
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:27
+msgid "Box"
+msgstr ""
+
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:28
+msgid "MultiDate"
+msgstr ""
+
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:30
+msgid "Select type of styles."
+msgstr ""
+
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:37
+msgid "Contact Info"
+msgstr ""
+
+#: shortcodes/hb-rooms-search/hb-rooms-search.php:39
+msgid "Add contact info of you."
+msgstr ""
+
+#: shortcodes/hb-rooms-search/tpl/default.php:48
+#: tp-hotel-booking/search/search.php:19 tp-hotel-booking/search/search.php:21
+#: wp-hotel-booking/search/search.php:19 wp-hotel-booking/search/search.php:21
+msgid "Check in"
+msgstr ""
+
+#: shortcodes/hb-rooms-search/tpl/default.php:57
+#: tp-hotel-booking/search/search.php:26 tp-hotel-booking/search/search.php:28
+#: wp-hotel-booking/search/search.php:26 wp-hotel-booking/search/search.php:28
+msgid "Check out"
+msgstr ""
+
+#: shortcodes/hb-rooms-search/tpl/default.php:66
+#: shortcodes/hb-rooms-search/tpl/default.php:131
+#: tp-hotel-booking/search/search.php:33 wp-hotel-booking/search/search.php:33
+msgid "Guests"
+msgstr ""
+
+#: shortcodes/hb-rooms-search/tpl/default.php:96
+#: shortcodes/hb-rooms-search/tpl/default.php:182
+#: tp-hotel-booking/search/search.php:56 wp-hotel-booking/search/search.php:56
+msgid "Check Availability"
+msgstr ""
+
+#: shortcodes/hb-rooms-search/tpl/default.php:108
+msgid "Check-In"
+msgstr ""
+
+#: shortcodes/hb-rooms-search/tpl/default.php:118
+msgid "Check-Out"
+msgstr ""
+
+#: shortcodes/hb-rooms-search/tpl/default.php:147
+msgid "Adults"
+msgstr ""
+
+#: shortcodes/hb-rooms-search/tpl/default.php:165
+msgid "Children"
+msgstr ""
+
+#: shortcodes/hb-rooms/hb-rooms.php:8
+msgid "Thim HB Rooms"
+msgstr ""
+
+#: shortcodes/hb-rooms/hb-rooms.php:12
+msgid "Display HB Rooms."
+msgstr ""
+
+#: shortcodes/hb-rooms/hb-rooms.php:19
+msgid "Number Rooms"
+msgstr ""
+
+#: shortcodes/hb-rooms/hb-rooms.php:24
+msgid "Number rooms display."
+msgstr ""
+
+#: shortcodes/hb-rooms/hb-rooms.php:31
+msgid "Link Text"
+msgstr ""
+
+#: shortcodes/hb-rooms/hb-rooms.php:32
+msgid "View all"
+msgstr ""
+
+#: shortcodes/hb-rooms/hb-rooms.php:34
+msgid "Write the title for the button link."
+msgstr ""
+
+#: shortcodes/hb-rooms/tpl/default.php:62
+msgid "No room found"
+msgstr ""
+
+#: shortcodes/heading/heading.php:13
+msgid "Thim Heading"
+msgstr ""
+
+#: shortcodes/heading/heading.php:16
+msgid "Display heading."
+msgstr ""
+
+#: shortcodes/heading/heading.php:22
+msgid "HEADING PRIMARY"
+msgstr ""
+
+#: shortcodes/heading/heading.php:24
+msgid "Hello"
+msgstr ""
+
+#: shortcodes/heading/heading.php:25
+msgid "Write the title for the heading."
+msgstr ""
+
+#: shortcodes/heading/heading.php:31
+msgid "Use custom or default heading primary?"
+msgstr ""
+
+#: shortcodes/heading/heading.php:44
+msgid "Heading primary color "
+msgstr ""
+
+#: shortcodes/heading/heading.php:47
+msgid "Select the heading primary color."
+msgstr ""
+
+#: shortcodes/heading/heading.php:57
+msgid "Heading primary size "
+msgstr ""
+
+#: shortcodes/heading/heading.php:62
+msgid "Select the heading primary size."
+msgstr ""
+
+#: shortcodes/heading/heading.php:72
+msgid "Heading primary weight "
+msgstr ""
+
+#: shortcodes/heading/heading.php:81
+msgid "Select the heading primary weight."
+msgstr ""
+
+#: shortcodes/heading/heading.php:91
+msgid "Heading primary style "
+msgstr ""
+
+#: shortcodes/heading/heading.php:100
+msgid "Select the heading primary style."
+msgstr ""
+
+#: shortcodes/heading/heading.php:110
+msgid "Hide line?"
+msgstr ""
+
+#: shortcodes/heading/heading.php:112
+msgid "Tick it to hide line in heading primary."
+msgstr ""
+
+#: shortcodes/heading/heading.php:123
+msgid "HEADING SECONDARY"
+msgstr ""
+
+#: shortcodes/heading/heading.php:124
+msgid "WORLD"
+msgstr ""
+
+#: shortcodes/heading/heading.php:126
+msgid "Write the title for the heading secondary."
+msgstr ""
+
+#: shortcodes/heading/heading.php:133
+msgid "Use custom or default heading secondary?"
+msgstr ""
+
+#: shortcodes/heading/heading.php:146
+msgid "Heading secondary tag"
+msgstr ""
+
+#: shortcodes/heading/heading.php:155
+msgid "Choose heading element."
+msgstr ""
+
+#: shortcodes/heading/heading.php:165
+msgid "Heading secondary color "
+msgstr ""
+
+#: shortcodes/heading/heading.php:168
+msgid "Select the heading secondary color."
+msgstr ""
+
+#: shortcodes/heading/heading.php:178
+msgid "Heading secondary size "
+msgstr ""
+
+#: shortcodes/heading/heading.php:183
+msgid "Select the heading secondary size."
+msgstr ""
+
+#: shortcodes/heading/heading.php:194
+msgid "Heading secondary style "
+msgstr ""
+
+#: shortcodes/heading/heading.php:203
+msgid "Select the heading secondary style."
+msgstr ""
+
+#: shortcodes/heading/heading.php:216
+msgid "DESCRIPTION"
+msgstr ""
+
+#: shortcodes/heading/heading.php:218
+msgid "Provide the description for this icon box."
+msgstr ""
+
+#: shortcodes/heading/heading.php:228
+msgid "BUTTON LINK"
+msgstr ""
+
+#: shortcodes/heading/heading.php:230
+msgid "Write text link for the button."
+msgstr ""
+
+#: shortcodes/heading/heading.php:237
+msgid "Button text"
+msgstr ""
+
+#: shortcodes/heading/heading.php:239
+msgid "Write text for the button."
+msgstr ""
+
+#: shortcodes/heading/heading.php:246
+msgid "Shortcode alignment"
+msgstr ""
+
+#: shortcodes/heading/heading.php:250
+msgid "Shortcode at left"
+msgstr ""
+
+#: shortcodes/heading/heading.php:251
+msgid "Shortcode at center"
+msgstr ""
+
+#: shortcodes/heading/heading.php:252
+msgid "Shortcode at right"
+msgstr ""
+
+#: shortcodes/list-events/list-events.php:12
+msgid "Thim List Events"
+msgstr ""
+
+#: shortcodes/list-events/list-events.php:15
+msgid "Display List Event"
+msgstr ""
+
+#: shortcodes/list-events/list-events.php:20
+msgid "Number events"
+msgstr ""
+
+#: shortcodes/list-events/list-events.php:24
+msgid "Number events to display."
+msgstr ""
+
+#: shortcodes/list-events/list-events.php:31
+msgid "Text link"
+msgstr ""
+
+#: shortcodes/list-events/list-events.php:34
+msgid "Add text link to archive events."
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:33
+msgid "Thim List Icon Box"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:34
+msgid "Display list icon box"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:65
+msgid "Write the title value"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:71
+msgid "Description"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:74
+msgid "Write the description value"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:79
+msgid "Icon type"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:81
+msgid "Choose icon type"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:82
+msgid "Font Awesome"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:83
+msgid "Openiconic"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:84
+msgid "Typicons"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:85
+msgid "Entypo"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:86
+msgid "Linecons"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:87
+msgid "Ionicons"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:91
+msgid "Select icon type."
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:97
+#: shortcodes/list-icon-box/list-icon-box.php:114
+#: shortcodes/list-icon-box/list-icon-box.php:132
+#: shortcodes/list-icon-box/list-icon-box.php:150
+#: shortcodes/list-icon-box/list-icon-box.php:168
+#: shortcodes/list-icon-box/list-icon-box.php:186
+msgid "Icon"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:108
+msgid "FontAwesome library."
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:126
+msgid "Openiconic library."
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:144
+msgid "Typicons library."
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:162
+msgid "Entypo library."
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:180
+msgid "Linecons library."
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:198
+msgid "Ionicons library."
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:203
+msgid "Display the button?"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:206
+msgid "Tick it to display the button."
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:211
+msgid "Button link"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:214
+msgid "Write the button link"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:224
+msgid "Button value"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:227
+msgid "Write the button value"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:238
+msgid "Extra class name"
+msgstr ""
+
+#: shortcodes/list-icon-box/list-icon-box.php:241
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: shortcodes/our-gallery/our-gallery.php:35
+msgid "Thim Our Gallery"
+msgstr ""
+
+#: shortcodes/our-gallery/our-gallery.php:36
+msgid "Display Our Gallery"
+msgstr ""
+
+#: shortcodes/our-gallery/our-gallery.php:68
+msgid "Sub Title"
+msgstr ""
+
+#: shortcodes/our-gallery/our-gallery.php:76
+msgid "Limit Posts"
+msgstr ""
+
+#: shortcodes/our-gallery/our-gallery.php:83
+msgid "Items Visible"
+msgstr ""
+
+#: shortcodes/our-gallery/our-gallery.php:102
+msgid "Image Size"
+msgstr ""
+
+#: shortcodes/our-gallery/our-gallery.php:104
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by theme). Alternatively enter size in pixels (Example: "
+"200x100 (Width x Height))."
+msgstr ""
+
+#: shortcodes/our-gallery/our-gallery.php:110
+msgid "Show Navigation"
+msgstr ""
+
+#: shortcodes/our-gallery/our-gallery.php:112
+msgid "Show next/prev buttons."
+msgstr ""
+
+#: shortcodes/our-gallery/our-gallery.php:118
+msgid "Show Dot"
+msgstr ""
+
+#: shortcodes/our-gallery/our-gallery.php:120
+msgid "Show dots navigation."
+msgstr ""
+
+#: shortcodes/our-gallery/our-gallery.php:128
+#: shortcodes/testimonials/testimonials.php:116
+msgid "Auto Play Speed (in ms)"
+msgstr ""
+
+#: shortcodes/our-gallery/our-gallery.php:130
+#: shortcodes/testimonials/testimonials.php:118
+msgid "Set 0 to disable auto play."
+msgstr ""
+
+#: shortcodes/posts/posts.php:16
+msgid "Thim Posts"
+msgstr ""
+
+#: shortcodes/posts/posts.php:19
+msgid "Display posts"
+msgstr ""
+
+#: shortcodes/posts/posts.php:24
+msgid "Number posts"
+msgstr ""
+
+#: shortcodes/posts/posts.php:28
+msgid "Number posts to display."
+msgstr ""
+
+#: shortcodes/posts/posts.php:33
+msgid "Columns"
+msgstr ""
+
+#: shortcodes/posts/posts.php:37
+msgid "Number columns"
+msgstr ""
+
+#: shortcodes/posts/posts.php:50
+msgid "Hide button Read more?"
+msgstr ""
+
+#: shortcodes/posts/posts.php:53
+msgid "Tick it to hide the button read more."
+msgstr ""
+
+#: shortcodes/posts/posts.php:59
+msgid "Use custom or default readmore button?"
+msgstr ""
+
+#: shortcodes/posts/posts.php:70
+msgid "Text Readmore"
+msgstr ""
+
+#: shortcodes/posts/posts.php:72 shortcodes/posts/tpl/default.php:45
+#: templates/template-parts/content-search.php:41
+#: templates/template-parts/content-search.php:66
+#: templates/template-parts/content-search.php:80
+#: templates/template-parts/content-search.php:92
+#: templates/template-parts/content-search.php:109
+#: templates/template-parts/content.php:43
+#: templates/template-parts/content.php:68
+#: templates/template-parts/content.php:82
+#: templates/template-parts/content.php:94
+#: templates/template-parts/content.php:111
+msgid "Read More"
+msgstr ""
+
+#: shortcodes/posts/posts.php:73
+msgid "Write the text for readmore button."
+msgstr ""
+
+#: shortcodes/posts/posts.php:83
+msgid "Readmore color "
+msgstr ""
+
+#: shortcodes/posts/posts.php:86
+msgid "Select the readmore button color."
+msgstr ""
+
+#: shortcodes/posts/posts.php:95 shortcodes/social-link/social-link.php:31
+#: shortcodes/testimonials/testimonials.php:97
+msgid "Style"
+msgstr ""
+
+#: shortcodes/posts/posts.php:101
+msgid "Style 3"
+msgstr ""
+
+#: shortcodes/posts/posts.php:103
+msgid "Select layout style."
+msgstr ""
+
+#: shortcodes/posts/posts.php:109
+msgid "Show category"
+msgstr ""
+
+#: shortcodes/posts/posts.php:111
+msgid "Tick it to show category."
+msgstr ""
+
+#: shortcodes/posts/posts.php:124
+msgid "Background Category color "
+msgstr ""
+
+#: shortcodes/posts/posts.php:127
+msgid "Select the Background Category color."
+msgstr ""
+
+#: shortcodes/posts/posts.php:139
+msgid "Show custom info post"
+msgstr ""
+
+#: shortcodes/posts/posts.php:141
+msgid "Tick it to show custom info post."
+msgstr ""
+
+#: shortcodes/posts/posts.php:153
+msgid "Show excerpt description"
+msgstr ""
+
+#: shortcodes/posts/posts.php:155
+msgid "Tick it to show excerpt description."
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:21
+msgid "Thim Social Link"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:25
+msgid "Display social link."
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:35
+msgid "Style 01"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:36
+msgid "Style 02"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:37
+msgid "Style 03"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:44
+msgid "Icon Alignment"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:48
+msgid "Icons at left"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:49
+msgid "Icons at center"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:50
+msgid "Icons at right"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:55
+msgid "Link Facebook"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:61
+msgid "Link Twitter"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:67
+msgid "Link Skype"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:73
+msgid "Link Pinterest"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:78
+msgid "Link Google"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:83
+msgid "Link Dribble"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:88
+msgid "Link Linkedin"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:93
+msgid "Link Digg"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:98
+msgid "Link Youtube"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:103
+msgid "Link Instagram"
+msgstr ""
+
+#: shortcodes/social-link/tpl/default.php:53
+msgid "Skype"
+msgstr ""
+
+#: shortcodes/social-link/tpl/default.php:56
+msgid "Instagram"
+msgstr ""
+
+#: shortcodes/social-link/tpl/default.php:62
+msgid "Google"
+msgstr ""
+
+#: shortcodes/social-link/tpl/default.php:65
+msgid "Dribble"
+msgstr ""
+
+#: shortcodes/social-link/tpl/default.php:68
+msgid "Linkedin"
+msgstr ""
+
+#: shortcodes/social-link/tpl/default.php:71
+msgid "Digg"
+msgstr ""
+
+#: shortcodes/social-link/tpl/default.php:74
+msgid "Youtube"
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:34
+msgid "Thim Testimonials"
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:35
+msgid "Display Testimonials"
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:62
+msgid "Block Title"
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:68
+msgid "Write the title for the block."
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:76
+msgid "Number testimonials"
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:84
+msgid "Layout"
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:88
+msgid "Layout 2"
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:100
+msgid "Left style"
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:101
+msgid "Center style"
+msgstr ""
+
+#: shortcodes/video/video.php:33
+msgid "Thim Video"
+msgstr ""
+
+#: shortcodes/video/video.php:34
+msgid "Display video"
+msgstr ""
+
+#: shortcodes/video/video.php:58
+msgid "Write the title for video."
+msgstr ""
+
+#: shortcodes/video/video.php:63
+msgid "Text Icon"
+msgstr ""
+
+#: shortcodes/video/video.php:65
+msgid "Write the text for icon."
+msgstr ""
+
+#: shortcodes/video/video.php:70
+msgid "URL Video"
+msgstr ""
+
+#: shortcodes/video/video.php:74
+msgid ""
+"Select an uploaded video in mp4 format. Other formats, such as webm and ogv "
+"will work in some browsers. You can use an online service such as <a "
+"href='http://video.online-convert.com/convert-to-mp4' target='_blank'>online-"
+"convert.com</a> to convert your videos to mp4."
+msgstr ""
+
+#: shortcodes/video/video.php:79
+msgid "Select cover image"
+msgstr ""
+
+#: shortcodes/video/video.php:83
+msgid ""
+"Select an uploaded video in mp4 format. Other formats, such as webm and ogv "
+"will work in some browsers"
+msgstr ""
+
+#: shortcodes/video/video.php:88
+msgid "Auto Play"
+msgstr ""
+
+#: shortcodes/video/video.php:93 shortcodes/video/video.php:105
+#: shortcodes/video/video.php:116 shortcodes/video/video.php:128
+msgid "Yes"
+msgstr ""
+
+#: shortcodes/video/video.php:100
+msgid "Auto Hidden"
+msgstr ""
+
+#: shortcodes/video/video.php:112
+msgid "Muted"
+msgstr ""
+
+#: shortcodes/video/video.php:124
+msgid "Loop"
+msgstr ""
+
+#: shortcodes/weather/tpl/default.php:6
+msgid "Today:"
+msgstr ""
+
+#: shortcodes/weather/weather.php:33
+msgid "Thim Weather"
+msgstr ""
+
+#: shortcodes/weather/weather.php:34
+msgid "Display Weather"
+msgstr ""
+
+#: shortcodes/weather/weather.php:56
+msgid "Location"
+msgstr ""
+
+#: shortcodes/weather/weather.php:59
+msgid "Write the your location."
+msgstr ""
+
+#: shortcodes/weather/weather.php:63
+msgid "Unit"
+msgstr ""
+
+#: shortcodes/weather/weather.php:67
+msgid "C"
+msgstr ""
+
+#: shortcodes/weather/weather.php:68
+msgid "F"
+msgstr ""
+
+#: shortcodes/weather/weather.php:70
+msgid "Select unit of weather"
+msgstr ""
+
+#: templates/features/preloading/custom-image.php:9
+msgid "Loading..."
+msgstr ""
+
+#: templates/page-title/page-title.php:168
+msgid "Room Detail"
+msgstr ""
+
+#: templates/page-title/page-title.php:180
+msgid "Our Team"
+msgstr ""
+
+#: templates/page-title/page-title.php:184
+msgid "Testimonials"
+msgstr ""
+
+#: templates/template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: templates/template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: templates/template-parts/content-none.php:29
+msgid "What are you looking for?"
+msgstr ""
+
+#: templates/template-parts/content-none.php:38
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: templates/template-parts/content-page.php:16
+#: templates/template-parts/content-single.php:41
+msgid "Pages:"
+msgstr ""
+
+#: templates/template-parts/related-posts.php:13
+msgid "Your Might Also Like"
+msgstr ""
+
+#: tp-event-auth/auths/form-login.php:21 tp-event-auth/auths/form-login.php:47
+#: wp-events-manager/shortcodes/form-login.php:21
+#: wp-events-manager/shortcodes/form-login.php:47
+msgid "Login"
+msgstr ""
+
+#: tp-event-auth/auths/form-login.php:26
+#: tp-event-auth/auths/form-register.php:33
+#: wp-events-manager/shortcodes/form-login.php:26
+#: wp-events-manager/shortcodes/form-register.php:28
+msgid "Username"
+msgstr ""
+
+#: tp-event-auth/auths/form-login.php:31
+#: tp-event-auth/auths/form-register.php:43
+#: tp-event-auth/auths/form-reset-password.php:25
+#: wp-events-manager/shortcodes/form-login.php:31
+#: wp-events-manager/shortcodes/form-register.php:38
+#: wp-events-manager/shortcodes/reset-password.php:25
+msgid "Password"
+msgstr ""
+
+#: tp-event-auth/auths/form-login.php:39
+#: wp-events-manager/shortcodes/form-login.php:39
+msgid "Remember me"
+msgstr ""
+
+#: tp-event-auth/auths/form-login.php:54
+#: tp-event-auth/auths/form-register.php:28
+#: tp-event-auth/auths/form-register.php:66
+#: tp-event-auth/auths/form-reset-password.php:72
+#: wp-events-manager/shortcodes/form-login.php:54
+#: wp-events-manager/shortcodes/form-register.php:23
+#: wp-events-manager/shortcodes/form-register.php:61
+#: wp-events-manager/shortcodes/reset-password.php:72
+msgid "Register"
+msgstr ""
+
+#: tp-event-auth/auths/form-login.php:56
+#: wp-events-manager/shortcodes/form-login.php:56
+msgid "Forgot Password"
+msgstr ""
+
+#: tp-event-auth/auths/form-register.php:15
+#: wp-events-manager/shortcodes/user-cannot-register.php:7
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: tp-event-auth/auths/form-register.php:48
+#: tp-event-auth/auths/form-reset-password.php:37
+#: wp-events-manager/shortcodes/form-register.php:43
+#: wp-events-manager/shortcodes/reset-password.php:37
+msgid "Confirm Password"
+msgstr ""
+
+#: tp-event-auth/auths/form-register.php:57
+#: wp-events-manager/shortcodes/form-register.php:52
+msgid "Registration confirmation will be emailed to you."
+msgstr ""
+
+#: tp-event-auth/auths/form-register.php:72
+#: tp-event-auth/auths/form-reset-password.php:68
+#: wp-events-manager/shortcodes/form-register.php:67
+#: wp-events-manager/shortcodes/reset-password.php:68
+msgid "Log in"
+msgstr ""
+
+#: tp-event-auth/auths/form-register.php:73
+#: wp-events-manager/shortcodes/form-register.php:68
+msgid "Password Lost and Found"
+msgstr ""
+
+#: tp-event-auth/auths/form-register.php:73
+#: wp-events-manager/shortcodes/form-register.php:68
+msgid "Lost your password?"
+msgstr ""
+
+#: tp-event-auth/auths/form-reset-password.php:18
+#: wp-events-manager/shortcodes/reset-password.php:18
+msgid "Get Your Password"
+msgstr ""
+
+#: tp-event-auth/auths/form-reset-password.php:62
+#: wp-events-manager/shortcodes/reset-password.php:62
+msgid "Reset Password"
+msgstr ""
+
+#: tp-event-auth/auths/my-account.php:9
+#: wp-events-manager/shortcodes/user-account.php:11
+#, php-format
+msgid "You are not <a href=\"%s\">login</a>"
+msgstr ""
+
+#: tp-event-auth/auths/my-account.php:19
+#: wp-events-manager/shortcodes/user-account.php:21
+msgid "Booking ID"
+msgstr ""
+
+#: tp-event-auth/auths/my-account.php:21
+#: wp-events-manager/shortcodes/user-account.php:23
+msgid "Type"
+msgstr ""
+
+#: tp-event-auth/auths/my-account.php:22 tp-event-auth/auths/my-account.php:34
+#: tp-event-auth/form-book-event.php:40
+#: wp-events-manager/loop/booking-form.php:38
+#: wp-events-manager/shortcodes/user-account.php:24
+#: wp-events-manager/shortcodes/user-account.php:36
+msgid "Cost"
+msgstr ""
+
+#: tp-event-auth/auths/my-account.php:23 tp-event-auth/form-book-event.php:46
+#: wp-events-manager/loop/booking-form.php:44
+#: wp-events-manager/shortcodes/user-account.php:25
+msgid "Quantity"
+msgstr ""
+
+#: tp-event-auth/auths/my-account.php:24
+#: wp-events-manager/shortcodes/user-account.php:26
+msgid "Method"
+msgstr ""
+
+#: tp-event-auth/auths/my-account.php:25
+#: wp-events-manager/shortcodes/user-account.php:27
+msgid "Status"
+msgstr ""
+
+#: tp-event-auth/auths/my-account.php:34 tp-event-auth/form-book-event.php:41
+#: wp-events-manager/loop/booking-form.php:39
+#: wp-events-manager/shortcodes/user-account.php:36
+msgid "Free"
+msgstr ""
+
+#: tp-event-auth/auths/my-account.php:37
+#: wp-events-manager/shortcodes/user-account.php:39
+msgid "No payment."
+msgstr ""
+
+#: tp-event-auth/auths/my-account.php:55 tp-event-auth/auths/my-account.php:67
+#: wp-events-manager/shortcodes/user-account.php:57
+#: wp-events-manager/shortcodes/user-account.php:69
+#: wp-hotel-booking-room/single-book-room.php:47
+msgid "Previous"
+msgstr ""
+
+#: tp-event-auth/form-book-event.php:20
+#: wp-events-manager/loop/booking-form.php:18
+msgid "Buy Ticket"
+msgstr ""
+
+#: tp-event-auth/form-book-event.php:28
+#: wp-events-manager/loop/booking-form.php:26
+msgid "Total Slots"
+msgstr ""
+
+#: tp-event-auth/form-book-event.php:32
+#: wp-events-manager/loop/booking-form.php:30
+msgid "Booked Times"
+msgstr ""
+
+#: tp-event-auth/form-book-event.php:36
+#: wp-events-manager/loop/booking-form.php:34
+msgid "Booked Slots"
+msgstr ""
+
+#: tp-event-auth/form-book-event.php:41
+#: wp-events-manager/loop/booking-form.php:39
+msgid "/Slot"
+msgstr ""
+
+#: tp-event-auth/form-book-event.php:60
+#: wp-events-manager/loop/booking-form.php:60
+msgid "Pay with"
+msgstr ""
+
+#: tp-event-auth/form-book-event.php:86
+#: wp-events-manager/loop/booking-form.php:86
+msgid "Sold Out"
+msgstr ""
+
+#: tp-event-auth/form-book-event.php:88
+#: tp-hotel-booking-room/single-search-button.php:18
+#: tp-hotel-booking/loop/thumbnail.php:28
+#: wp-events-manager/loop/booking-form.php:96
+#: wp-hotel-booking-room/single-search-button.php:18
+#: wp-hotel-booking/loop/thumbnail.php:28
+msgid "Book Now"
+msgstr ""
+
+#: tp-event/content-single-event.php:47
+#: wp-events-manager/content-single-event.php:62
+msgid "Start Time"
+msgstr ""
+
+#: tp-event/content-single-event.php:55
+#: wp-events-manager/content-single-event.php:70
+msgid "Finish Time"
+msgstr ""
+
+#: tp-event/loop/excerpt.php:11 wp-events-manager/loop/excerpt.php:11
+msgid "Read more"
+msgstr ""
+
+#: tp-hb-extra/loop/extra-search-room.php:43
+#: tp-hb-extra/loop/extra-single-search-room.php:55
+#: wp-hotel-booking-extra/loop/extra-search-room.php:43
+#: wp-hotel-booking-extra/loop/extra-single-search-room.php:55
+msgid "Package"
+msgstr ""
+
+#: tp-hb-extra/loop/extra-single-search-room.php:23
+#: wp-hotel-booking-extra/loop/extra-single-search-room.php:23
+msgid "Optional Extras"
+msgstr ""
+
+#: tp-hotel-booking/loop/price.php:27 wp-hotel-booking/loop/price.php:27
+msgid "From:"
+msgstr ""
+
+#: tp-hotel-booking/loop/price.php:45
+#: tp-hotel-booking/search/booking-room-details.php:19
+#: wp-hotel-booking/loop/price.php:45
+#: wp-hotel-booking/search/booking-room-details.php:19
+msgid "Night"
+msgstr ""
+
+#: tp-hotel-booking/loop/pricing_plan.php:23
+#: wp-hotel-booking/loop/pricing_plan.php:23
+msgid "to"
+msgstr ""
+
+#: tp-hotel-booking/loop/pricing_plan.php:26
+#: wp-hotel-booking/loop/pricing_plan.php:26
+msgid "Pricing plans"
+msgstr ""
+
+#: tp-hotel-booking/loop/rating.php:31
+msgid " Review"
+msgstr ""
+
+#: tp-hotel-booking/loop/rating.php:33
+msgid " Reviews"
+msgstr ""
+
+#: tp-hotel-booking/loop/rating.php:37 wp-hotel-booking/loop/rating.php:32
+#, php-format
+msgid "%d/5"
+msgstr ""
+
+#: tp-hotel-booking/loop/rating.php:39 tp-hotel-booking/loop/rating.php:45
+#: tp-hotel-booking/single-room/review.php:40
+#: wp-hotel-booking/loop/rating.php:33 wp-hotel-booking/loop/rating.php:38
+#: wp-hotel-booking/single-room/review.php:37
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: tp-hotel-booking/loop/thumbnail.php:31
+#: wp-hotel-booking/loop/thumbnail.php:31
+msgid "More Info"
+msgstr ""
+
+#: tp-hotel-booking/search/booking-room-details.php:30
+#: wp-hotel-booking/search/booking-room-details.php:30
+msgid "Total: "
+msgstr ""
+
+#: tp-hotel-booking/search/booking-room-details.php:40
+#: wp-hotel-booking/search/booking-room-details.php:40
+msgid "* vat is included"
+msgstr ""
+
+#: tp-hotel-booking/search/booking-room-details.php:42
+#: wp-hotel-booking/search/booking-room-details.php:42
+msgid "* vat is not included yet"
+msgstr ""
+
+#: tp-hotel-booking/search/loop.php:32 wp-hotel-booking/search/loop.php:32
+msgid "Capacity: "
+msgstr ""
+
+#: tp-hotel-booking/search/loop.php:36 wp-hotel-booking/search/loop.php:36
+msgid "Max Child: "
+msgstr ""
+
+#: tp-hotel-booking/search/loop.php:40 wp-hotel-booking/search/loop.php:40
+msgid "Quantity: "
+msgstr ""
+
+#: tp-hotel-booking/search/loop.php:47 wp-hotel-booking/search/loop.php:47
+msgid "Select"
+msgstr ""
+
+#: tp-hotel-booking/search/loop.php:56 wp-hotel-booking/search/loop.php:56
+msgid "Price:"
+msgstr ""
+
+#: tp-hotel-booking/search/loop.php:59 wp-hotel-booking/search/loop.php:59
+msgid "(View price breakdown)"
+msgstr ""
+
+#: tp-hotel-booking/search/loop.php:66 wp-hotel-booking/search/loop.php:66
+msgid "Select this room"
+msgstr ""
+
+#: tp-hotel-booking/search/results.php:40
+#: wp-hotel-booking/search/results.php:40
+msgid "No room found."
+msgstr ""
+
+#: tp-hotel-booking/search/results.php:42
+#: wp-hotel-booking/search/results.php:42
+msgid "Search again!"
+msgstr ""
+
+#: tp-hotel-booking/search/search.php:42 wp-hotel-booking/search/search.php:42
+msgid "Guest"
+msgstr ""
+
+#: tp-hotel-booking/single-room-reviews.php:23
+#: wp-hotel-booking/loop/rating.php:29
+#: wp-hotel-booking/single-room-reviews.php:23
+msgid "Reviews"
+msgstr ""
+
+#: tp-hotel-booking/single-room-reviews.php:43
+#: wp-hotel-booking/single-room-reviews.php:43
+msgid "There are no reviews yet."
+msgstr ""
+
+#: tp-hotel-booking/single-room-reviews.php:55
+#: wp-hotel-booking/single-room-reviews.php:55
+msgid "Add review"
+msgstr ""
+
+#: tp-hotel-booking/single-room-reviews.php:55
+#: wp-hotel-booking/single-room-reviews.php:55
+msgid "Be the first to review"
+msgstr ""
+
+#: tp-hotel-booking/single-room-reviews.php:56
+#: wp-hotel-booking/single-room-reviews.php:56
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: tp-hotel-booking/single-room-reviews.php:65
+#: wp-hotel-booking/single-room-reviews.php:65
+msgid "Submit"
+msgstr ""
+
+#: tp-hotel-booking/single-room-reviews.php:71
+#: wp-hotel-booking/single-room-reviews.php:71
+msgid "Your Rating"
+msgstr ""
+
+#: tp-hotel-booking/single-room-reviews.php:75
+#: wp-hotel-booking/single-room-reviews.php:75
+msgid "Your Review"
+msgstr ""
+
+#: tp-hotel-booking/single-room-reviews.php:83
+#: wp-hotel-booking/single-room-reviews.php:83
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: tp-hotel-booking/single-room/details.php:20
+#: wp-hotel-booking/single-room/details.php:17
+msgid "AMENITIES AND SERVICES"
+msgstr ""
+
+#: tp-hotel-booking/single-room/related-room.php:22
+#: wp-hotel-booking/single-room/related-room.php:18
+msgid "Other Rooms"
+msgstr ""
+
+#: tp-hotel-booking/single-room/review.php:33
+#: wp-hotel-booking/single-room/review.php:30
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/content-single-product-lightbox.php:65
+msgid "View Detail"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:25
+msgid "Sort by:"
+msgstr ""
+
+#: woocommerce/widgets/class-wc-widget-cart.php:92
+msgid "Hide cart number"
+msgstr ""
+
+#: woocommerce/widgets/class-wc-widget-cart.php:97
+msgid "Hide if cart is empty"
+msgstr ""
+
+#: woocommerce/woocommerce.php:66
+msgid "Popularity"
+msgstr ""
+
+#: woocommerce/woocommerce.php:67
+msgid "Rating"
+msgstr ""
+
+#: woocommerce/woocommerce.php:68
+msgid "Newness"
+msgstr ""
+
+#: woocommerce/woocommerce.php:69
+msgid "Price"
+msgstr ""
+
+#: wp-events-manager/loop/booking-form.php:90
+msgid "Login Now"
+msgstr ""
+
+#: wp-events-manager/loop/booking-form.php:93
+msgid "You must login to our site to book this event!"
+msgstr ""
+
+#: wp-hotel-booking-room/single-book-room.php:24
+msgid "Please select number of room and packages(optional)"
+msgstr ""
+
+#: wp-hotel-booking-room/single-book-room.php:34
+msgid "Select Number Of Room"
+msgstr ""
+
+#: wp-hotel-booking-room/single-book-room.php:56
+msgid "Add To Cart"
+msgstr ""
+
+#: wp-hotel-booking-room/single-search-available.php:27
+msgid "Please set arrival date and departure date before check available."
+msgstr ""
+
+#: wp-hotel-booking-room/single-search-available.php:33
+msgid "Arrival Date"
+msgstr ""
+
+#: wp-hotel-booking-room/single-search-available.php:38
+msgid "Departure Date"
+msgstr ""
+
+#: wp-hotel-booking-room/single-search-available.php:46
+msgid "Check Available"
+msgstr ""
+
+#: wp-hotel-booking-room/single-search-available.php:55
+msgid "Quantity Available"
+msgstr ""
+
+#: wp-hotel-booking-room/single-search-available.php:58
+msgid "--- Quantity ---"
+msgstr ""

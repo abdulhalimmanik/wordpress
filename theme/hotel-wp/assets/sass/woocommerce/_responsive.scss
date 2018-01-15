@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+	.responsive{
+		.related{
+			.product{
+				margin-bottom: 30px!important;
+				&.first{
+					clear: both;
+				}
+			}
+		}
+		.woocommerce-tabs{
+			.entry-content{
+				padding: 0!important;
+			}
+		}
+	}
+}
